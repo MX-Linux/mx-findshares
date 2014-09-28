@@ -35,14 +35,14 @@
            </widget>
           </item>
           <item>
-           <widget class="QRadioButton" name="radioNoSMB">
+           <widget class="QRadioButton" name="radioNoNFS">
             <property name="text">
              <string>Show only Windows/Samba shares</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QRadioButton" name="radioNoNFS">
+           <widget class="QRadioButton" name="radioNoSMB">
             <property name="text">
              <string>Show only NFS shares</string>
             </property>
