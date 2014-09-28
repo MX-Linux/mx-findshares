@@ -62,6 +62,12 @@ QString mxfindshares::getCmdOut(QString cmd) {
     return proc->readAllStandardOutput().trimmed();
 }
 
+// Get version of the program
+QString mxfindshares::getVersion(QString name) {
+    QString cmd = QString("dpkg -l %1 | awk 'NR==6 {print $3}'").arg(name);
+    return getCmdOut(cmd);
+}
+
 // List network shares
 void mxfindshares::listShares(QString option) {
     QString cmd = QString("findshares %1").arg(option);
@@ -156,7 +162,8 @@ void mxfindshares::on_buttonStart_clicked() {
 void mxfindshares::on_buttonAbout_clicked() {
     QMessageBox msgBox(QMessageBox::NoIcon,
                        tr("About MX Find Shares"), "<p align=\"center\"><b><h2>" +
-                       tr("MX Find Shares") + "</h2></b></p><p align=\"center\">MX14+git20140928</p><p align=\"center\"><h3>" +
+                       tr("MX Find Shares") + "</h2></b></p><p align=\"center\">Version: " +
+                       getVersion("mx-findshares") + "</p><p align=\"center\"><h3>" +
                        tr("Simple package for finding network shares for antiX MX") + "</h3></p><p align=\"center\"><a href=\"http://www.mepiscommunity.org/mx\">http://www.mepiscommunity.org/mx</a><br /></p><p align=\"center\">" +
                        tr("Copyright (c) antiX") + "<br /><br /></p>", 0, this);
     msgBox.addButton(tr("License"), QMessageBox::AcceptRole);

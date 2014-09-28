@@ -49,6 +49,7 @@ public:
     QString getCmdOut(QString cmd);
 
     void listShares(QString option);
+    QString getVersion(QString name);
     void setup();
 
 public slots:
