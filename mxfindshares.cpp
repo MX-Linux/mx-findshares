@@ -55,6 +55,7 @@ void mxfindshares::setup() {
 
 // Util function
 QString mxfindshares::getCmdOut(QString cmd) {
+    proc = new QProcess(this);
     proc->start("/bin/bash", QStringList() << "-c" << cmd);
     proc->setReadChannel(QProcess::StandardOutput);
     proc->setReadChannelMode(QProcess::MergedChannels);
