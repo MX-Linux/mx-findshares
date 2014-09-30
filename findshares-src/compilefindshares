@@ -1,0 +1,7 @@
+export CFLAGS="-Wall"
+export CXXFLAGS="-pipe"
+export LDFLAGS="-Wl,-O1"
+gcc -g -pipe -Wall findshares.c -o findshares
+size findshares
+strip --strip-unneeded findshares
+ls -l findshares

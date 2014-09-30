@@ -3,11 +3,14 @@
 QMAKE_OPTS = DEFINES+=NO_DEBUG_ON_CONSOLE
 MAKE_OPTS  = QMAKE=qmake-qt4 LRELEASE=lrelease-qt4 QMAKE_OPTS="$(QMAKE_OPTS)"
 
+export QT_SELECT=qt4
+
 override_dh_auto_clean:
 	dh_auto_clean
-	rm -f src/translations/*.qm
+	rm -f src/translations/*.qm findshares-src/findshares
 
 override_dh_auto_build:
+	cd findshares-src && sh compilefindshares
 	lrelease-qt4 mx-findshares.pro
 	dh_auto_build -- $(MAKE_OPTS)
 
@@ -18,4 +21,4 @@ override_dh_builddeb:
 	dh_builddeb -- -Z xz
 
 %:
-	dh $@ --parallel 
+	dh $@  

@@ -1,3 +1,4 @@
+findshares-src/findshares	usr/bin
 mx-findshares 		 usr/bin
 mx-findshares.desktop	         usr/share/applications/mx
 translations/*.qm 	 usr/share/mx-findshares/locale
