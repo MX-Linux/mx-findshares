@@ -28,7 +28,6 @@
 #include <QMessageBox>
 #include <QProcess>
 #include <QTimer>
-#include <QTreeWidgetItem>
 
 namespace Ui {
 class mxfindshares;
@@ -62,6 +61,9 @@ public slots:
     virtual void on_buttonStart_clicked();
     virtual void on_buttonAbout_clicked();
     virtual void on_buttonHelp_clicked();
+
+private slots:
+    void on_buttonSave_clicked();
 
 private:
     Ui::mxfindshares *ui;    

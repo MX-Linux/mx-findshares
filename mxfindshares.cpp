@@ -27,6 +27,8 @@
 
 #include <QFileDialog>
 #include <QScrollBar>
+#include <QTextStream>
+
 
 mxfindshares::mxfindshares(QWidget *parent) :
     QDialog(parent),
@@ -51,6 +53,7 @@ void mxfindshares::setup() {
     ui->buttonCancel->setEnabled(true);
     ui->buttonStart->setEnabled(true);
     ui->radioAll->setChecked(true);
+    ui->buttonSave->setEnabled(false);
 }
 
 // Util function
@@ -103,9 +106,10 @@ void mxfindshares::procDone(int exitCode) {
                               tr("Process finished. Errors have occurred."));
         setCursor(QCursor(Qt::WaitCursor));
     }
-    ui->buttonStart->setEnabled(true);
+    ui->buttonSave->setEnabled(true);
+    ui->buttonStart->setEnabled(true);    
     ui->buttonStart->setText(tr("< Back"));
-    ui->buttonStart->setIcon(QIcon());
+    ui->buttonStart->setIcon(QIcon());    
 }
 
 
@@ -152,6 +156,7 @@ void mxfindshares::on_buttonStart_clicked() {
         // restore Start button
         ui->buttonStart->setText(tr("Start"));
         ui->buttonStart->setIcon(QIcon("/usr/share/mx-findshares/icons/dialog-ok.png"));
+        ui->buttonSave->setEnabled(false);
         ui->outputBox->clear();
     } else {
         qApp->exit(0);
@@ -179,3 +184,17 @@ void mxfindshares::on_buttonHelp_clicked() {
     system("mx-viewer http://www.mepiscommunity.org/doc_mx/mxapps.html#findshares 'MX Find Shares Help'");
 }
 
+
+// Save output
+void mxfindshares::on_buttonSave_clicked()
+{
+    QString fileName = QFileDialog::getSaveFileName(this, tr("Save File"),
+                                                    tr("network_shares.txt"));
+    if (fileName != "") {
+        QFile file(fileName);
+        file.open(QIODevice::WriteOnly);
+        QTextStream out(&file);
+        out << ui->outputBox->toPlainText();
+        file.close();
+    }
+}

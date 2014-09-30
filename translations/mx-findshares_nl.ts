@@ -5,7 +5,7 @@
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
-        <location filename="../mxfindshares.cpp" line="159"/>
+        <location filename="../mxfindshares.cpp" line="171"/>
         <source>MX Find Shares</source>
         <translation type="unfinished"></translation>
     </message>
@@ -25,23 +25,23 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="128"/>
+        <location filename="../mxfindshares.ui" line="135"/>
         <source>Display help </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="131"/>
+        <location filename="../mxfindshares.ui" line="138"/>
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="138"/>
+        <location filename="../mxfindshares.ui" line="145"/>
         <source>Alt+H</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="170"/>
-        <location filename="../mxfindshares.cpp" line="146"/>
+        <location filename="../mxfindshares.ui" line="183"/>
+        <location filename="../mxfindshares.cpp" line="157"/>
         <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
@@ -56,79 +56,94 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="167"/>
+        <location filename="../mxfindshares.ui" line="107"/>
+        <source>Save results</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxfindshares.ui" line="180"/>
         <source>Start scanning for shares</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="190"/>
+        <location filename="../mxfindshares.ui" line="209"/>
         <source>Quit application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="193"/>
-        <location filename="../mxfindshares.cpp" line="163"/>
+        <location filename="../mxfindshares.ui" line="212"/>
+        <location filename="../mxfindshares.cpp" line="176"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="200"/>
+        <location filename="../mxfindshares.ui" line="219"/>
         <source>Alt+N</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="210"/>
+        <location filename="../mxfindshares.ui" line="235"/>
         <source>About this application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="213"/>
+        <location filename="../mxfindshares.ui" line="238"/>
         <source>About...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="220"/>
+        <location filename="../mxfindshares.ui" line="245"/>
         <source>Alt+B</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="95"/>
+        <location filename="../mxfindshares.cpp" line="105"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="92"/>
+        <location filename="../mxfindshares.cpp" line="102"/>
         <source>Finished searching for shares.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="96"/>
+        <location filename="../mxfindshares.cpp" line="106"/>
         <source>Process finished. Errors have occurred.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="100"/>
+        <location filename="../mxfindshares.cpp" line="111"/>
         <source>&lt; Back</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="158"/>
+        <location filename="../mxfindshares.cpp" line="170"/>
         <source>About MX Find Shares</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="160"/>
+        <location filename="../mxfindshares.cpp" line="173"/>
         <source>Simple package for finding network shares for antiX MX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="161"/>
+        <location filename="../mxfindshares.cpp" line="174"/>
         <source>Copyright (c) antiX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="162"/>
+        <location filename="../mxfindshares.cpp" line="175"/>
         <source>License</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxfindshares.cpp" line="191"/>
+        <source>Save File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxfindshares.cpp" line="192"/>
+        <source>network_shares.txt</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
