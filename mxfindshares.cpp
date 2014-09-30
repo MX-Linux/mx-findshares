@@ -168,10 +168,12 @@ void mxfindshares::on_buttonStart_clicked() {
 void mxfindshares::on_buttonAbout_clicked() {
     QMessageBox msgBox(QMessageBox::NoIcon,
                        tr("About MX Find Shares"), "<p align=\"center\"><b><h2>" +
-                       tr("MX Find Shares") + "</h2></b></p><p align=\"center\">Version: " +
+                       tr("MX Find Shares") + "</h2></b></p><p align=\"center\">" + tr("Version: ") +
                        getVersion("mx-findshares") + "</p><p align=\"center\"><h3>" +
-                       tr("Simple package for finding network shares for antiX MX") + "</h3></p><p align=\"center\"><a href=\"http://www.mepiscommunity.org/mx\">http://www.mepiscommunity.org/mx</a><br /></p><p align=\"center\">" +
-                       tr("Copyright (c) antiX") + "<br /><br /></p>", 0, this);
+                       tr("Simple package for finding network shares for antiX MX") + "</h3></p><p align=\"center\"><a href=\"http://www.mepiscommunity.org/mx\">http://www.mepiscommunity.org/mx</a><br /></p><p>" +
+                       tr("This program is composed of two packages:") +
+                       "<p>findshares, the CLI utility: Copyright (c) Richard A. Rost  April 23,2011)</p>" +
+                       "<p>mx-findshares, the GUI wrapper: " + tr("Copyright (c) antiX\n") + "<br /><br /></p>", 0, this);
     msgBox.addButton(tr("License"), QMessageBox::AcceptRole);
     msgBox.addButton(tr("Cancel"), QMessageBox::DestructiveRole);
     if (msgBox.exec() == QMessageBox::AcceptRole)
