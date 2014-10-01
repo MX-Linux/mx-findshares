@@ -1,0 +1,48 @@
+Files: *, except where noted below
+
+Copyright (2014) by Adrian; MEPIS Community <http://forum.mepiscommunity.org>
+
+and released under the GPL 3
+
+
+Files: debian/* 
+
+Packaging copyright 2014 by Steven Pusser [maintainer@mepiscommunity.org]
+
+and is released under the GPL 3 license. 
+
+The desktop icon "mx-findshares.xpm" was converted from this artwork on 
+openclipart.org: http://openclipart.org/detail/13816/-by--13816
+
+Files: findshare-src/*
+
+findshares was written by and is Copyright (C) Richard A. Rost  April 23,2011
+ 
+This program attempts to locate remote shares on Windows and Samba
+servers as well as NFS servers in the same subnet as the local IP
+address. Any remote shares found that are mounted in the local file
+system are indicated.
+
+It was written to be a lightweight alternative to Samba's smbtree
+and a friendlier alternative to NFS's showmount.
+ 
+My Copyright terms are simple. You may copy, modify, and use this
+program as you see fit provided you meet the following terms:
+
+1. You leave my name as the author and do not take credit for my work.
+2. While I hope this program will be useful it is offered WITHOUT ANY
+   WARRANTY and you agree not to hold me liable for any damages.
+3. You leave this header in it's entirety at the top of this and all
+   other files for the original program. You may append notes, list
+   changes, and add the authors of any changes to the end of this header.
+4. You do not collect a fee for this program as is or modified.
+5. You do not collect a fee for any changes you make to this program.
+6. You do not include or package it with any software for which a fee
+   is collected.
+7. Items 4, 5, and 6 apply to the source code as well as the executable.
+8. You must make the full source code with a functioning compile script
+   available in one of the following ways.
+  A. Packaged with the executable when you distribute it.
+  B. As a separate package available from where you distribute the
+     executable. If distributed on a CD a web link to the source package
+     is acceptable.
