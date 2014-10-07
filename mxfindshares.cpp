@@ -172,7 +172,7 @@ void mxfindshares::on_buttonAbout_clicked() {
                        getVersion("mx-findshares") + "</p><p align=\"center\"><h3>" +
                        tr("Simple package for finding network shares for antiX MX") + "</h3></p><p align=\"center\"><a href=\"http://www.mepiscommunity.org/mx\">http://www.mepiscommunity.org/mx</a><br /></p><p>" +
                        tr("This program is composed of two packages:") +
-                       "<p>findshares, the CLI utility: Copyright (c) Richard A. Rost  April 23,2011)</p>" +
+                       "<p>findshares, the CLI utility: Copyright (c) Richard A. Rost</p>" +
                        "<p>mx-findshares, the GUI wrapper: " + tr("Copyright (c) antiX\n") + "<br /><br /></p>", 0, this);
     msgBox.addButton(tr("License"), QMessageBox::AcceptRole);
     msgBox.addButton(tr("Cancel"), QMessageBox::DestructiveRole);
