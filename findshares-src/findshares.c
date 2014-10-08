@@ -186,7 +186,7 @@ void bail(uint16_t ErrorLineNumber)
 		fputs(strerror(errno), stdout);
 		fputs(": ", stdout);
 	}
-	//printf("Error line %d\n", ErrorLineNumber);
+    //printf("Error line %d\n", ErrorLineNumber);
 	exit(1);
 }
 /******************************************************************/
@@ -904,7 +904,7 @@ void GetShareInfoSMB(void)
 		if(SMBshares[subnet] != NULL)
 		{
 			tmp=EnumShares(net_ipbase, subnet);
-			//if(tmp != 0) printf("Error line %d\n", tmp);
+            //if(tmp != 0) printf("Error line %d\n", tmp);
 			close(tcp_port); // EnumShares opened it and we close it
 		}
 	}
@@ -1231,7 +1231,7 @@ int main(int argc, char *argv[])
 	InitGlobals();
 	gethostname(myname, sizeof(myname));
 	myname[15]='\0'; // If myname is more than 15 chars we truncate it.
-	printf("Local Host Name  = %s\n", myname);
+    printf("Local Host Name  = %s\n", myname);
 	ScanInterfaces();
 	for(i=0; i < 10; i++)
 	{
@@ -1254,6 +1254,8 @@ int main(int argc, char *argv[])
 			findSMB=0;
 		else
 		{
+            printf("\nfindshares version %s\nCopyright Richard A. Rost April"
+                    " 23, 2011\n\n",VERSION);
 			printf("This program attempts to locate remote shares on Windows,\n"
 				"Samba, and NFS servers in the same subnet as the local IP\n"
 				"address. Any remote shares found that are mounted in the\n"
