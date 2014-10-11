@@ -1,51 +1,51 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" version="2.0">
 <context>
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
         <location filename="../mxfindshares.cpp" line="171"/>
         <source>MX Find Shares</source>
-        <translation>MX Búsqueda de Recursos Compartidos</translation>
+        <translation>MX Find Shares</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="27"/>
         <source>Options:</source>
-        <translation>Opciones</translation>
+        <translation>Options:</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="33"/>
         <source>Show all shares</source>
-        <translation>Mostrar todos los recursos compartidos</translation>
+        <translation>Show all shares</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="40"/>
         <source>Show only Windows/Samba shares</source>
-        <translation>Mostrar sólo los recursos compartidos de Windows/Samba</translation>
+        <translation>Show only Windows/Samba shares</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="47"/>
         <source>Show only NFS shares</source>
-        <translation>Mostrar sólo los recursos compartidos NFS</translation>
+        <translation>Show only NFS shares</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="57"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Este programa lista todos los recursos compartidos disponibles en la red de trabajo. Al presionar &amp;quot;Inicio&amp;quot; el programa desplegará una lista con los equipos y recursos compartidos ordenados por grupos en la red de trabajo, tanto localmente como de forma remota.&lt;/p&gt;&lt;p&gt;Por favor escoja una de las opciones disponibles y presione el botón de &amp;quot;Inicio&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="107"/>
         <source>Save results</source>
-        <translation>Guardar los resultados</translation>
+        <translation>Save results</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="135"/>
         <source>Display help </source>
-        <translation>Mostrar la ayuda</translation>
+        <translation>Display help </translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="138"/>
         <source>Help</source>
-        <translation>Ayuda</translation>
+        <translation>Help</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="145"/>
@@ -55,24 +55,24 @@
     <message>
         <location filename="../mxfindshares.ui" line="180"/>
         <source>Start scanning for shares</source>
-        <translation>Empezar a buscar recursos compartidos</translation>
+        <translation>Start scanning for shares</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="183"/>
         <location filename="../mxfindshares.cpp" line="157"/>
         <source>Start</source>
-        <translation>Inicio</translation>
+        <translation>Start</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="209"/>
         <source>Quit application</source>
-        <translation>Terminar aplicación</translation>
+        <translation>Quit application</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="212"/>
         <location filename="../mxfindshares.cpp" line="178"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation>Cancel</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="219"/>
@@ -82,12 +82,12 @@
     <message>
         <location filename="../mxfindshares.ui" line="235"/>
         <source>About this application</source>
-        <translation>Acerca de esta aplicación</translation>
+        <translation>About this application</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="238"/>
         <source>About...</source>
-        <translation>Acerca de...</translation>
+        <translation>About...</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="245"/>
@@ -97,7 +97,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="102"/>
         <source>Finished searching for shares.</source>
-        <translation>Se completó la búsqueda de recursos compartidos</translation>
+        <translation>Finished searching for shares.</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="105"/>
@@ -107,32 +107,32 @@
     <message>
         <location filename="../mxfindshares.cpp" line="106"/>
         <source>Process finished. Errors have occurred.</source>
-        <translation>Proceso finalizado.  Ocurrieron errores.</translation>
+        <translation>Process finished. Errors have occurred.</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="111"/>
         <source>&lt; Back</source>
-        <translation>&lt; Anterior</translation>
+        <translation>&lt; Back</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="170"/>
         <source>About MX Find Shares</source>
-        <translation>Acerca de MX Búsqueda de Recursos Compartidos</translation>
+        <translation>About MX Find Shares</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="171"/>
         <source>Version: </source>
-        <translation>Versión:</translation>
+        <translation>Version: </translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="173"/>
         <source>Simple package for finding network shares for antiX MX</source>
-        <translation>Paquete simple de antiX MX para encontrar recursos compartidos en redes de trabajo</translation>
+        <translation>Simple package for finding network shares for antiX MX</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="174"/>
         <source>This program is composed of two packages:</source>
-        <translation>Este programa se compone de dos paquetes:</translation>
+        <translation>This program is composed of two packages:</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="176"/>
@@ -144,12 +144,12 @@
     <message>
         <location filename="../mxfindshares.cpp" line="177"/>
         <source>License</source>
-        <translation>Licencia</translation>
+        <translation>License</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="193"/>
         <source>Save File</source>
-        <translation>Guardar Archivo</translation>
+        <translation>Save File</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="194"/>

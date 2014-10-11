@@ -42,9 +42,8 @@ HEADERS  += mxfindshares.h
 
 FORMS    += mxfindshares.ui
 
-TRANSLATIONS += translations/mx-findshares_el.ts \
+TRANSLATIONS += translations/mx-findshares_ca.ts \
                 translations/mx-findshares_es.ts \
-                translations/mx-findshares_fr.ts \
                 translations/mx-findshares_ja.ts \
                 translations/mx-findshares_nl.ts \
                 translations/mx-findshares_sv.ts
