@@ -72,7 +72,7 @@
 
 /* Some defines */
 /******************************************************************/
-#define VERSION "1.05 Aug 3, 2011"
+#define VERSION "1.06 Mar 11, 2014"
 /* NBT offsets */
 #define NBT_TID		0	// Transaction ID
 #define NBT_MODE	2	// OpCode, flags, response code
@@ -186,7 +186,7 @@ void bail(uint16_t ErrorLineNumber)
 		fputs(strerror(errno), stdout);
 		fputs(": ", stdout);
 	}
-	//printf("Error line %d\n", ErrorLineNumber);
+    //printf("Error line %d\n", ErrorLineNumber);
 	exit(1);
 }
 /******************************************************************/
@@ -262,15 +262,15 @@ int Copy(void *dest, void *src, int mode)
 		if(cdest > csrc)
 		{
 			direction= -1;
-			if(((int)csrc & 0xFFFFFF00) != 0) csrc+=(count - 1);
+			if(((int)csrc & -256) != 0) csrc+=(count - 1);
 			cdest+=count - 1;
 		}
 		else direction=1;
 		while(count != 0)
 		{
-			if(((int)csrc & 0xFFFFFF00) == 0)
+			if(((int)csrc & -256) == 0)
 			{
-				*cdest=((int)csrc & 0x000000FF);
+				*cdest=((int)csrc & 255);
 			}
 			else
 			{
@@ -869,7 +869,7 @@ void GetShareInfoNFS(void)
 /******************************************************************/
 
 /******************************************************************/
-/* Finds NFS servers and retrieves their shares */
+/* Finds Samba/Windows servers and retrieves their shares */
 void GetShareInfoSMB(void)
 {
 	int tmp, timeout=3;
@@ -904,7 +904,7 @@ void GetShareInfoSMB(void)
 		if(SMBshares[subnet] != NULL)
 		{
 			tmp=EnumShares(net_ipbase, subnet);
-			//if(tmp != 0) printf("Error line %d\n", tmp);
+            //if(tmp != 0) printf("Error line %d\n", tmp);
 			close(tcp_port); // EnumShares opened it and we close it
 		}
 	}
@@ -1063,9 +1063,8 @@ void ScanInterfaces(void)
 		if((ifa->ifa_addr == NULL) || (ptr >= 10)) break;
 		if((ifa->ifa_addr->sa_family == AF_INET) && !(ifa->ifa_flags & IFF_LOOPBACK))
 		{ /* INET yes, LOOPBACK no. */
-			s = getnameinfo(ifa->ifa_addr,
-			sizeof(struct sockaddr_in),
-			NICinfo[ptr].ipaddress, 16, NULL, 0, NI_NUMERICHOST);
+			s = getnameinfo(ifa->ifa_addr, sizeof(struct sockaddr_in),
+				NICinfo[ptr].ipaddress, 16, NULL, 0, NI_NUMERICHOST);
 			Copy(&NICinfo[ptr].NICname, ifa->ifa_name, 15);
 			NICinfo[ptr].NICname[15]='\0'; // Clip name if more than 15 characters
 			ptr++;
@@ -1224,6 +1223,8 @@ void *zmalloc(int size, int caller)
 int main(int argc, char *argv[])
 {
 	int tmp, i, j, k, header;
+	int	NIC=0;			// Network card we are currently scanning from
+	int found=0;		// Flag to indicate shares were found
 	int summary, findSMB=1, findNFS=1;
 	ushort subnet;
 
@@ -1236,10 +1237,11 @@ int main(int argc, char *argv[])
 	{
 		if(NICinfo[i].ipaddress[0] == 0)
 			break;
+		NIC=i;
 		printf("Local IP Address = %s on %s\n",NICinfo[i].ipaddress,
 												NICinfo[i].NICname);
 	}
-	fputc('\n', stdout);
+//	fputc('\n', stdout);
 	if(argc > 1)
 	{
 		if(CompareStrings(argv[1], "-nn", 0) == 0)
@@ -1252,150 +1254,169 @@ int main(int argc, char *argv[])
 			findSMB=0;
 		else
 		{
+            printf("\nfindshares version %s\nCopyright Richard A. Rost April"
+                    " 23, 2011\n\n",VERSION);
 			printf("This program attempts to locate remote shares on Windows,\n"
 				"Samba, and NFS servers in the same subnet as the local IP\n"
 				"address. Any remote shares found that are mounted in the\n"
 				"local file system are indicated.\n\n"
-				"Usage:  findshares [-nn] [--non-fs] [-ns] [--no-smb]\n\n"
+				"Usage:  findshares [-nn] [--no-nfs] [-ns] [--no-smb]\n\n"
 				"Options:\n"
 				"\t-nn [--no-nfs]\tShow only Windows/Samba shares\n"
 				"\t-ns [--no-smb]\tShow only NFS shares\n\n");
 			return(0);
 		}
 	}
-	tmp=inet_aton((char *) &NICinfo[0].ipaddress, (struct in_addr *) &net_ipaddress);
-	if(tmp < 0) bail(__LINE__);
-	net_ipbase=net_ipaddress & 0x00FFFFFF; // Base address in network order
+	
+	while(NIC >= 0)
+	{
+		InitGlobals();
+		tmp=inet_aton((char *) &NICinfo[NIC].ipaddress, (struct in_addr *) &net_ipaddress);
+		if(tmp < 0) bail(__LINE__);
+		net_ipbase=net_ipaddress & 0x00FFFFFF; // Base address in network order
 
-	if(findSMB)
-	{
-		GetShareInfoSMB();
-		CreateMountlistSMB();
-	}
-	if(findNFS)
-	{
-		GetShareInfoNFS();
-		CreateMountlistNFS();
-	}
+		printf("\nScanning from %s on %s\n",NICinfo[NIC].ipaddress,
+												NICinfo[NIC].NICname);
 
-	summary=0;
-	header=0;
-	for(subnet=1; subnet < 255; subnet++)
-	{
-		if(SMBshares[subnet] != NULL)
+		if(findSMB)
 		{
-			if(header == 0)
-			{
-				header=printf("Samba/Windows Shares\n");
-				PrintDashes();
-			}
-			printf("%s\n    %-16s %-16s  %s\n", SMBshares[subnet]->groupname,
-											SMBshares[subnet]->servername,
-											SMBshares[subnet]->ipaddress_string,
-											SMBshares[subnet]->servercomment);
-			i=SMBshares[subnet]->sharecount - 1; // -1 because array starts at 0
-			while(i >= 0)
-			{
-				if(SMBshares[subnet]->share[i].mounted)
-					summary=1;
-				printf("\t%-30s %s\n", SMBshares[subnet]->share[i].name,
-				SMBshares[subnet]->share[i].comment);
-				i--;
-			}
-			fputc('\n', stdout);
+			GetShareInfoSMB();
+			CreateMountlistSMB();
 		}
-	}
-	header=0;
-	for(subnet=1; subnet < 255; subnet++)
-	{
-		if(NFSshares[subnet] != NULL)
-			if(NFSshares[subnet]->port != 0)
-			{
-				if(header == 0)
-				{
-					header=printf("NFS Exports\n");
-					PrintDashes();
-				}
-				printf("Server IP Address = %s\n   Exported Location"
-									"      Allowable Clients\n",
-									 NFSshares[subnet]->ipaddress_string);
-				j=NFSshares[subnet]->sharecount - 1; // -1 because array starts at 0
-				while(j >= 0)
-				{
-					if(NFSshares[subnet]->share[j]->mounted)
-						summary=1;
-					printf("   %s\n", NFSshares[subnet]->share[j]->name);
-					k=NFSshares[subnet]->share[j]->usercount - 1; // -1 because array starts at 0
-					while(k >= 0)
-					{
-						printf("                          %s\n", NFSshares[subnet]->share[j]->user[k]);
-						k--;
-					}
-					j--;
-					fputc('\n', stdout);
-				}
-			}
-	}
-	if(summary)
-	{
-		printf("\n%-16s%-22s %s\n", "Server", "Remote Resource", "Local Mount Point");
-		PrintDashes();
+		if(findNFS)
+		{
+			GetShareInfoNFS();
+			CreateMountlistNFS();
+		}
+
+		summary=0;
+		header=0;
+		found=0;
 		for(subnet=1; subnet < 255; subnet++)
 		{
 			if(SMBshares[subnet] != NULL)
 			{
+				if(header == 0)
+				{
+					header=printf("Samba/Windows Shares\n");
+					PrintDashes();
+					found=1;
+				}
+				printf("%s\n    %-16s %-16s  %s\n", SMBshares[subnet]->groupname,
+												SMBshares[subnet]->servername,
+												SMBshares[subnet]->ipaddress_string,
+												SMBshares[subnet]->servercomment);
 				i=SMBshares[subnet]->sharecount - 1; // -1 because array starts at 0
 				while(i >= 0)
 				{
-					j=SMBshares[subnet]->share[i].mounted - 1; // -1 because array starts at 0
-					while(j >= 0)
-					{
-						printf("%-16s%-22s %s\n", SMBshares[subnet]->ipaddress_string,
-														SMBshares[subnet]->share[i].name,
-														SMBshares[subnet]->share[i].mountpoint[j]);
-						j--;
-					}
+					if(SMBshares[subnet]->share[i].mounted)
+						summary=1;
+					printf("\t%-30s %s\n", SMBshares[subnet]->share[i].name,
+					SMBshares[subnet]->share[i].comment);
 					i--;
 				}
+				fputc('\n', stdout);
 			}
+		}
+		header=0;
+		for(subnet=1; subnet < 255; subnet++)
+		{
+			if(NFSshares[subnet] != NULL)
+				if(NFSshares[subnet]->port != 0)
+				{
+					if(header == 0)
+					{
+						header=printf("NFS Exports\n");
+						PrintDashes();
+						found=1;
+					}
+					printf("Server IP Address = %s\n   Exported Location"
+										"      Allowable Clients\n",
+										 NFSshares[subnet]->ipaddress_string);
+					j=NFSshares[subnet]->sharecount - 1; // -1 because array starts at 0
+					while(j >= 0)
+					{
+						if(NFSshares[subnet]->share[j]->mounted)
+							summary=1;
+						printf("   %s\n", NFSshares[subnet]->share[j]->name);
+						k=NFSshares[subnet]->share[j]->usercount - 1; // -1 because array starts at 0
+						while(k >= 0)
+						{
+							printf("                          %s\n", NFSshares[subnet]->share[j]->user[k]);
+							k--;
+						}
+						j--;
+						fputc('\n', stdout);
+					}
+				}
+		}
+		if(summary)
+		{
+			printf("\n%-16s%-22s %s\n", "Server", "Remote Resource", "Local Mount Point");
+			PrintDashes();
+			for(subnet=1; subnet < 255; subnet++)
+			{
+				if(SMBshares[subnet] != NULL)
+				{
+					i=SMBshares[subnet]->sharecount - 1; // -1 because array starts at 0
+					while(i >= 0)
+					{
+						j=SMBshares[subnet]->share[i].mounted - 1; // -1 because array starts at 0
+						while(j >= 0)
+						{
+							printf("%-16s%-22s %s\n", SMBshares[subnet]->ipaddress_string,
+															SMBshares[subnet]->share[i].name,
+															SMBshares[subnet]->share[i].mountpoint[j]);
+							j--;
+						}
+						i--;
+					}
+				}
+				if(NFSshares[subnet] != NULL)
+				{
+					i=NFSshares[subnet]->sharecount - 1; // -1 because array starts at 0
+					while(i >= 0)
+					{
+						j=NFSshares[subnet]->share[i]->mounted - 1; // -1 because array starts at 0
+						while(j >= 0)
+						{
+							printf("%-16s%-22s %s\n", NFSshares[subnet]->ipaddress_string,
+															NFSshares[subnet]->share[i]->name,
+															NFSshares[subnet]->share[i]->mountpoint[j]);
+							j--;
+						}
+						i--;
+					}
+				}
+			}
+			fputc('\n', stdout);
+		}
+		for(subnet=1; subnet < 255; subnet++)
+		{
+			if(SMBshares[subnet] != NULL)
+				free(SMBshares[subnet]);
+		}
+		free(SMBshares);
+		SMBshares=NULL;
+		for(subnet=1; subnet < 255; subnet++)
+		{
 			if(NFSshares[subnet] != NULL)
 			{
-				i=NFSshares[subnet]->sharecount - 1; // -1 because array starts at 0
-				while(i >= 0)
+				for(j=0; j < MAXDIRS; j++)
 				{
-					j=NFSshares[subnet]->share[i]->mounted - 1; // -1 because array starts at 0
-					while(j >= 0)
-					{
-						printf("%-16s%-22s %s\n", NFSshares[subnet]->ipaddress_string,
-														NFSshares[subnet]->share[i]->name,
-														NFSshares[subnet]->share[i]->mountpoint[j]);
-						j--;
-					}
-					i--;
+					if(NFSshares[subnet]->share[j] != NULL)
+						free(NFSshares[subnet]->share[j]);
 				}
+				free(NFSshares[subnet]);
 			}
 		}
-		fputc('\n', stdout);
+		free(NFSshares);
+		NFSshares=NULL;
+		NIC--;
+		if(found == 0)
+			printf("No shares found\n");
 	}
-	for(subnet=1; subnet < 255; subnet++)
-	{
-		if(SMBshares[subnet] != NULL)
-			free(SMBshares[subnet]);
-	}
-	free(SMBshares);
-	for(subnet=1; subnet < 255; subnet++)
-	{
-		if(NFSshares[subnet] != NULL)
-		{
-			for(j=0; j < MAXDIRS; j++)
-			{
-				if(NFSshares[subnet]->share[j] != NULL)
-					free(NFSshares[subnet]->share[j]);
-			}
-			free(NFSshares[subnet]);
-		}
-	}
-	free(NFSshares);
+	
 	free(NICinfo);
 	close(udp137);
 	return(0);
