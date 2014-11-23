@@ -1,150 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="el_GR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="el" version="2.0">
 <context>
     <name>mxfindshares</name>
     <message>
-        <location filename="../mxfindshares.ui" line="14"/>
-        <location filename="../mxfindshares.cpp" line="171"/>
+        <location filename="mxfindshares.ui" line="14"/>
+        <location filename="mxfindshares.cpp" line="171"/>
         <source>MX Find Shares</source>
-        <translation type="unfinished"></translation>
+        <translation>MX Find Shares</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="27"/>
+        <location filename="mxfindshares.ui" line="27"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιλογές:</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="40"/>
-        <source>Show only Windows/Samba shares</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mxfindshares.ui" line="47"/>
-        <source>Show only NFS shares</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mxfindshares.ui" line="135"/>
-        <source>Display help </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mxfindshares.ui" line="138"/>
-        <source>Help</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mxfindshares.ui" line="145"/>
-        <source>Alt+H</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mxfindshares.ui" line="183"/>
-        <location filename="../mxfindshares.cpp" line="157"/>
-        <source>Start</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mxfindshares.ui" line="33"/>
+        <location filename="mxfindshares.ui" line="33"/>
         <source>Show all shares</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση όλων των μετοχών </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="57"/>
+        <location filename="mxfindshares.ui" line="40"/>
+        <source>Show only Windows/Samba shares</source>
+        <translation>Εμφάνιση μετοχών του Windows/Samba </translation>
+    </message>
+    <message>
+        <location filename="mxfindshares.ui" line="47"/>
+        <source>Show only NFS shares</source>
+        <translation>Εμφάνιση μόνο μετοχών του NFS </translation>
+    </message>
+    <message>
+        <location filename="mxfindshares.ui" line="57"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Το πρόγραμμα απαριθμεί όλες τις μετοχές που διατίθενται στο δίκτυο. Όταν πατήσετε  &amp;quot;Start&amp;quot; θα εμφανιστεί μια λίστα με τα μηχανήματα και οι μετοχές με εντολή των ομάδων του δικτύου, τόσο σε τοπικό όσο και απομακρυσμένα.&lt;/p&gt;&lt;p&gt;Παρακαλώ επιλέξτε μια από τις διαθέσιμες επιλογές και πατήστε το κουμπί &amp;quot;Start&amp;quot; &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="107"/>
+        <location filename="mxfindshares.ui" line="107"/>
         <source>Save results</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποθηκεύστε τα αποτελέσματα </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="180"/>
+        <location filename="mxfindshares.ui" line="135"/>
+        <source>Display help </source>
+        <translation>Δείτε Βοήθεια</translation>
+    </message>
+    <message>
+        <location filename="mxfindshares.ui" line="138"/>
+        <source>Help</source>
+        <translation>Βοήθεια</translation>
+    </message>
+    <message>
+        <location filename="mxfindshares.ui" line="145"/>
+        <source>Alt+H</source>
+        <translation>Alt+H </translation>
+    </message>
+    <message>
+        <location filename="mxfindshares.ui" line="180"/>
         <source>Start scanning for shares</source>
-        <translation type="unfinished"></translation>
+        <translation>Ξεκινήστε τη σάρωση για τις μετοχές </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="209"/>
+        <location filename="mxfindshares.ui" line="183"/>
+        <location filename="mxfindshares.cpp" line="157"/>
+        <source>Start</source>
+        <translation>Ξεκινήστε</translation>
+    </message>
+    <message>
+        <location filename="mxfindshares.ui" line="209"/>
         <source>Quit application</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλείστε την εφαρμογή </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="212"/>
-        <location filename="../mxfindshares.cpp" line="176"/>
+        <location filename="mxfindshares.ui" line="212"/>
+        <location filename="mxfindshares.cpp" line="178"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Ακύρωση</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="219"/>
+        <location filename="mxfindshares.ui" line="219"/>
         <source>Alt+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="235"/>
+        <location filename="mxfindshares.ui" line="235"/>
         <source>About this application</source>
-        <translation type="unfinished"></translation>
+        <translation>Περί εφαρμογής.</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="238"/>
+        <location filename="mxfindshares.ui" line="238"/>
         <source>About...</source>
-        <translation type="unfinished"></translation>
+        <translation>Περί</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="245"/>
+        <location filename="mxfindshares.ui" line="245"/>
         <source>Alt+B</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="105"/>
-        <source>Error</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mxfindshares.cpp" line="102"/>
+        <location filename="mxfindshares.cpp" line="102"/>
         <source>Finished searching for shares.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ολοκληρώθηκε η αναζήτηση για τις μετοχές. </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="106"/>
+        <location filename="mxfindshares.cpp" line="105"/>
+        <source>Error</source>
+        <translation>Σφάλμα</translation>
+    </message>
+    <message>
+        <location filename="mxfindshares.cpp" line="106"/>
         <source>Process finished. Errors have occurred.</source>
-        <translation type="unfinished"></translation>
+        <translation>Η διαδικασία τελείωσε με λάθη.</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="111"/>
+        <location filename="mxfindshares.cpp" line="111"/>
         <source>&lt; Back</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt; Πίσω </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="170"/>
+        <location filename="mxfindshares.cpp" line="170"/>
         <source>About MX Find Shares</source>
-        <translation type="unfinished"></translation>
+        <translation>Περί MX Find Shares</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="173"/>
+        <location filename="mxfindshares.cpp" line="171"/>
+        <source>Version: </source>
+        <translation>Έκδοση:</translation>
+    </message>
+    <message>
+        <location filename="mxfindshares.cpp" line="173"/>
         <source>Simple package for finding network shares for antiX MX</source>
-        <translation type="unfinished"></translation>
+        <translation>Απλό πακέτο για την εξεύρεση μετοχών του δικτύου για MX Linux.</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="174"/>
-        <source>Copyright (c) antiX</source>
-        <translation type="unfinished"></translation>
+        <location filename="mxfindshares.cpp" line="174"/>
+        <source>This program is composed of two packages:</source>
+        <translation>Το πρόγραμμα αποτελείται από δύο πακέτα: </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="175"/>
+        <location filename="mxfindshares.cpp" line="176"/>
+        <source>Copyright (c) antiX
+</source>
+        <translation>Copyright (c) antiX </translation>
+    </message>
+    <message>
+        <location filename="mxfindshares.cpp" line="177"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Άδεια</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="191"/>
+        <location filename="mxfindshares.cpp" line="193"/>
         <source>Save File</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποθήκευση αρχείου </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="192"/>
+        <location filename="mxfindshares.cpp" line="194"/>
         <source>network_shares.txt</source>
-        <translation type="unfinished"></translation>
+        <translation>network_shares.txt </translation>
     </message>
 </context>
 </TS>
