@@ -74,6 +74,7 @@ QString mxfindshares::getVersion(QString name) {
 
 // List network shares
 void mxfindshares::listShares(QString option) {
+    setCursor(QCursor(Qt::WaitCursor));
     QString cmd = QString("findshares %1").arg(option);
     ui->stackedWidget->setCurrentWidget(ui->outputPage);
     setConnections(timer, proc);
@@ -97,14 +98,13 @@ void mxfindshares::procTime() {
 void mxfindshares::procDone(int exitCode) {
     timer->stop();
     ui->progressBar->setValue(100);
+    setCursor(QCursor(Qt::ArrowCursor));
 
     if (exitCode == 0) {
         ui->outputLabel->setText(tr("Finished searching for shares."));
     } else {
-        setCursor(QCursor(Qt::ArrowCursor));
         QMessageBox::critical(this, tr("Error"),
-                              tr("Process finished. Errors have occurred."));
-        setCursor(QCursor(Qt::WaitCursor));
+                              tr("Process finished. Errors have occurred."));        
     }
     ui->buttonSave->setEnabled(true);
     ui->buttonStart->setEnabled(true);    
@@ -141,7 +141,7 @@ void mxfindshares::onStdoutAvailable() {
 // Start button clicked
 void mxfindshares::on_buttonStart_clicked() {
     // on first page
-    if (ui->stackedWidget->currentIndex() == 0) {
+    if (ui->stackedWidget->currentIndex() == 0) {        
         ui->buttonStart->setEnabled(false);
         if (ui->radioAll->isChecked()) {
             listShares("");
@@ -174,9 +174,9 @@ void mxfindshares::on_buttonAbout_clicked() {
                        tr("This program is composed of two packages:") +
                        "<p>findshares, the CLI utility: Copyright (c) Richard A. Rost</p>" +
                        "<p>mx-findshares, the GUI wrapper: " + tr("Copyright (c) antiX\n") + "<br /><br /></p>", 0, this);
-    msgBox.addButton(tr("License"), QMessageBox::AcceptRole);
-    msgBox.addButton(tr("Cancel"), QMessageBox::DestructiveRole);
-    if (msgBox.exec() == QMessageBox::AcceptRole)
+    msgBox.addButton(tr("Cancel"), QMessageBox::AcceptRole); // because we want to display the buttons in reverse order we use counter-intuitive roles.
+    msgBox.addButton(tr("License"), QMessageBox::RejectRole);
+    if (msgBox.exec() == QMessageBox::RejectRole)
         system("mx-viewer http://www.mepiscommunity.org/doc_mx/mx-findshares-license.html 'MX Find Shares License'");
 }
 

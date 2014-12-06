@@ -1,3 +1,9 @@
+mx-findshares (14.3.1) UNRELEASED; urgency=medium
+
+  * Minor fixes.
+
+ -- Adrian <adrian@mxlinux.org>  Sat, 06 Dec 2014 00:50:25 -0500
+
 mx-findshares (14.2+2) mx; urgency=medium
 
   * Upgraded findshares to v1.06
