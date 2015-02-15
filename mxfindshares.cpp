@@ -182,7 +182,7 @@ void mxfindshares::on_buttonAbout_clicked() {
 
 // Help button clicked
 void mxfindshares::on_buttonHelp_clicked() {
-    system("mx-viewer http://www.mepiscommunity.org/public_html/user_manual_mx15/mxum.html#findshares 'MX Find Shares Help'");
+    system("mx-viewer http://www.mepiscommunity.org/user_manual_mx15/mxum.html#findshares 'MX Find Shares Help'");
 }
 
 
