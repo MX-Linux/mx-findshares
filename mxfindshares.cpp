@@ -104,12 +104,12 @@ void mxfindshares::procDone(int exitCode) {
         ui->outputLabel->setText(tr("Finished searching for shares."));
     } else {
         QMessageBox::critical(this, tr("Error"),
-                              tr("Process finished. Errors have occurred."));        
+                              tr("Process finished. Errors have occurred."));
     }
     ui->buttonSave->setEnabled(true);
-    ui->buttonStart->setEnabled(true);    
+    ui->buttonStart->setEnabled(true);
     ui->buttonStart->setText(tr("< Back"));
-    ui->buttonStart->setIcon(QIcon());    
+    ui->buttonStart->setIcon(QIcon());
 }
 
 
@@ -121,7 +121,7 @@ void mxfindshares::setConnections(QTimer* timer, QProcess* proc) {
     connect(proc, SIGNAL(started()), SLOT(procStart()));
     disconnect(proc, SIGNAL(finished(int)), 0, 0);
     connect(proc, SIGNAL(finished(int)),SLOT(procDone(int)));
-    disconnect(proc, SIGNAL(readyReadStandardOutput()), 0, 0);    
+    disconnect(proc, SIGNAL(readyReadStandardOutput()), 0, 0);
     connect(proc, SIGNAL(readyReadStandardOutput()), SLOT(onStdoutAvailable()));
 }
 
@@ -141,7 +141,7 @@ void mxfindshares::onStdoutAvailable() {
 // Start button clicked
 void mxfindshares::on_buttonStart_clicked() {
     // on first page
-    if (ui->stackedWidget->currentIndex() == 0) {        
+    if (ui->stackedWidget->currentIndex() == 0) {
         ui->buttonStart->setEnabled(false);
         if (ui->radioAll->isChecked()) {
             listShares("");
@@ -183,7 +183,7 @@ void mxfindshares::on_buttonAbout_clicked() {
 
 // Help button clicked
 void mxfindshares::on_buttonHelp_clicked() {
-    system("mx-viewer http://www.mepiscommunity.org/doc_mx/mxapps.html#findshares 'MX Find Shares Help'");
+    system("mx-viewer http://www.mepiscommunity.org/public_html/user_manual_mx15/mxum.html#findshares 'MX Find Shares Help'");
 }
 
 

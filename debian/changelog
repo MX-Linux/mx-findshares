@@ -1,4 +1,10 @@
-mx-findshares (14.3.1) UNRELEASED; urgency=medium
+mx-findshares (15.2) mx; urgency=medium
+
+  * changed manual URL
+
+ -- Adrian <adrian@mxlinux.org>  Sun, 15 Feb 2015 10:49:14 -0500
+
+mx-findshares (14.3.1) mx; urgency=medium
 
   * Minor fixes.
 
