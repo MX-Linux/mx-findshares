@@ -1,3 +1,9 @@
+mx-findshares (15.3mx14) mx; urgency=medium
+
+  * change manual URL
+
+ -- Adrian <adrian@mxlinux.org>  Fri, 20 Mar 2015 16:38:02 -0400
+
 mx-findshares (15.2) mx; urgency=medium
 
   * changed manual URL
