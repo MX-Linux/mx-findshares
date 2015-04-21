@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.0">
 <context>
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
         <location filename="../mxfindshares.cpp" line="170"/>
         <source>MX Find Shares</source>
-        <translation>MX Trova Condivisioni</translation>
+        <translation>MX Risorse Condivise</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="27"/>
@@ -32,7 +30,7 @@
     <message>
         <location filename="../mxfindshares.ui" line="57"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Questo programma elenca tutte le risorse condivise disponibili in rete. Premendo &amp;quot;Start&amp;quot; il programma mostrerà un elenco con computer e risorse condivise ordinato per gruppi di rete, sia locali che remoti.&lt;/p&gt;&lt;p&gt;Prego, scegli una delle opzioni disponibili e premi il bottone &amp;quot;Start&amp;quot; &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Questo programma elenca tutte le risorse condivise disponibili in rete. Premendo &amp;quot;Avvia&amp;quot; il programma mostrerà un elenco con computer e risorse condivise ordinato per gruppi di rete, sia locali che remoti.&lt;/p&gt;&lt;p&gt;Prego, scegli una delle opzioni disponibili e premi il bottone &amp;quot;Avvia&amp;quot; &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="107"/>
@@ -84,12 +82,12 @@
     <message>
         <location filename="../mxfindshares.ui" line="235"/>
         <source>About this application</source>
-        <translation>Riguardo questa applicazione</translation>
+        <translation>informazioni riguardanti questa applicazione</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="238"/>
         <source>About...</source>
-        <translation>Riguardo..</translation>
+        <translation>Info..</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="245"/>
@@ -119,7 +117,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="169"/>
         <source>About MX Find Shares</source>
-        <translation>Riguardo a MX Find Shares</translation>
+        <translation>Informazioni su MX Find Shares</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="170"/>
