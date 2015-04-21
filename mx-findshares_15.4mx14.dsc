@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: mx-findshares
 Binary: mx-findshares
 Architecture: any
-Version: 15.3mx14
+Version: 15.4mx14
 Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
 Standards-Version: 3.9.5
 Vcs-Git: git://github.com/AdrianTM/mx-findshares
@@ -10,8 +10,8 @@ Build-Depends: qt4-qmake, debhelper (>= 7.0.50~)
 Package-List: 
  mx-findshares deb admin optional
 Checksums-Sha1: 
- d9a511839e906f206686e4c48f2aeb6f06c39390 41772 mx-findshares_15.3mx14.tar.gz
+ adc5b9436c789694913beca183a7443622691930 43146 mx-findshares_15.4mx14.tar.gz
 Checksums-Sha256: 
- 502e7016da1bf43520700c2c2e0a6120b8757573afeabeeac996bc0e35a16258 41772 mx-findshares_15.3mx14.tar.gz
+ 60c22ae64175d3551ecf9dacf1244c493340e566b64de2b0b74d50c88264ffb6 43146 mx-findshares_15.4mx14.tar.gz
 Files: 
- e6316884755b44a9945acb98bf127c38 41772 mx-findshares_15.3mx14.tar.gz
+ 766530a7cccf6ad3288d96677ec9862d 43146 mx-findshares_15.4mx14.tar.gz
