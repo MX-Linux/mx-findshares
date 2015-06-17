@@ -1,7 +1,7 @@
-export CFLAGS="-march=i486 -mtune=i686 -O1 -pipe -Wall"
-export CXXFLAGS="-march=i486 -mtune=i686 -O1 -pipe"
+export CFLAGS="-mtune=i686 -O1 -pipe -Wall"
+export CXXFLAGS="-mtune=i686 -O1 -pipe"
 export LDFLAGS="-Wl,-O1"
-gcc -g -march=i486 -mtune=i686 -Os -pipe -Wall findshares.c -o findshares
+gcc -g -mtune=i686 -Os -pipe -Wall findshares.c -o findshares
 size findshares
 strip --strip-unneeded findshares
 ls -l findshares

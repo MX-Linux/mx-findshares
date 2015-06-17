@@ -15,14 +15,14 @@ Changes:
  .
    * changed documentation URL
 Checksums-Sha1: 
- 4524db915036128d1b2ed0358b31173c525d8974 633 mx-findshares_15.6mx14.dsc
- 6f0b317eac62279418c31261a5178d3e92824766 42249 mx-findshares_15.6mx14.tar.gz
- 4ba7a2e8cea90649724156687284490bcbd6a49c 37918 mx-findshares_15.6mx14_i386.deb
+ 79db0a790c57963d7ea07e9609a33afb199a63b1 633 mx-findshares_15.6mx14.dsc
+ a81e8836ced648e079447ec22b4d6ec59c92f02a 42396 mx-findshares_15.6mx14.tar.gz
+ 826674ef179c9dfb3f2ad7526e8b9ea12bc74189 38012 mx-findshares_15.6mx14_i386.deb
 Checksums-Sha256: 
- bbc046e62c78ef2ecdf925c9835a394497da211fd48838a709453a1f3dc0fc53 633 mx-findshares_15.6mx14.dsc
- 46afda52350f56a30925caeebc37f2a32854de09760c04c6c4a8674b22220a72 42249 mx-findshares_15.6mx14.tar.gz
- d0ad05e5f5ad936ff021b54ef0c9ce88fda8d7c57fecf9584ffa779f30da37d7 37918 mx-findshares_15.6mx14_i386.deb
+ eab5004e3d935cf700def318612289c4572ed8c567e208b238badfecd965eb5b 633 mx-findshares_15.6mx14.dsc
+ ced7e6d700a566993413923404958fd4cbae0d37e2ae6afa6dcea2ba9e2c115c 42396 mx-findshares_15.6mx14.tar.gz
+ 43293f0f983314825bcbb8385485729898fb99dfb52fd618b6e1ebe415bca73e 38012 mx-findshares_15.6mx14_i386.deb
 Files: 
- 341958d091fc9bcf60bf1d5cea082df4 633 admin optional mx-findshares_15.6mx14.dsc
- 600dc2d1f34c188a6f72eb93a4c8c0fc 42249 admin optional mx-findshares_15.6mx14.tar.gz
- d776c076a644ade195b066b869d17625 37918 admin optional mx-findshares_15.6mx14_i386.deb
+ 0e110c93d7e16af0158679f0947ecd8b 633 admin optional mx-findshares_15.6mx14.dsc
+ ad9346d417d1afa19382d84a9ccad664 42396 admin optional mx-findshares_15.6mx14.tar.gz
+ a43217a0523089ce385b4ba52d1555c8 38012 admin optional mx-findshares_15.6mx14_i386.deb
