@@ -173,10 +173,10 @@ void mxfindshares::on_buttonAbout_clicked() {
                        tr("This program is composed of two packages:") +
                        "<p>findshares, the CLI utility: Copyright (c) Richard A. Rost</p>" +
                        "<p>mx-findshares, the GUI wrapper: " + tr("Copyright (c) antiX\n") + "<br /><br /></p>", 0, this);
-    msgBox.addButton(tr("Cancel"), QMessageBox::AcceptRole); // because we want to display the buttons in reverse order we use counter-intuitive roles.
-    msgBox.addButton(tr("License"), QMessageBox::RejectRole);
-    if (msgBox.exec() == QMessageBox::RejectRole)
-        system("mx-viewer http://www.mepiscommunity.org/doc_mx/mx-findshares-license.html 'MX Find Shares License'");
+    msgBox.addButton(tr("License"), QMessageBox::AcceptRole);
+    msgBox.addButton(tr("Cancel"), QMessageBox::RejectRole);
+    if (msgBox.exec() == QMessageBox::AcceptRole)
+        system("mx-viewer file:///usr/share/bin/mx-findshares/license.html 'MX Find Shares License'");
 }
 
 
