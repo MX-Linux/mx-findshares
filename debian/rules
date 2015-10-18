@@ -6,7 +6,7 @@ MAKE_OPTS  = QMAKE=qmake-qt5 LRELEASE=lrelease-qt5 QMAKE_OPTS="$(QMAKE_OPTS)"
 export QT_SELECT=qt5
 
 override_dh_shlibdeps:
-        dh_shlibdeps --dpkg-shlibdeps-params=--ignore-missing-info
+	dh_shlibdeps --dpkg-shlibdeps-params=--ignore-missing-info
 
 override_dh_auto_clean:
 	dh_auto_clean
@@ -14,7 +14,7 @@ override_dh_auto_clean:
 
 override_dh_auto_build:
 	cd findshares-src && sh compilefindshares
-	lrelease-qt4 mx-findshares.pro
+	lrelease mx-findshares.pro
 	dh_auto_build -- $(MAKE_OPTS)
 
 override_dh_auto_install:
@@ -22,6 +22,9 @@ override_dh_auto_install:
 
 override_dh_builddeb:
 	dh_builddeb -- -Z xz
+
+override_dh_shlibdeps:
+	dh_shlibdeps --dpkg-shlibdeps-params=--ignore-missing-info
 
 %:
 	dh $@  

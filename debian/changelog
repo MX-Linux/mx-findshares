@@ -1,3 +1,9 @@
+mx-findshares (15.10mx15) mx; urgency=medium
+
+  * changed icon
+
+ -- Adrian <adrian@mxlinux.org>  Sun, 18 Oct 2015 15:32:40 -0400
+
 mx-findshares (15.7mx14) mx; urgency=medium
 
   * update to qt5
