@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 23 Oct 2015 22:27:39 -0400
+Source: mx-findshares
+Binary: mx-findshares
+Architecture: source i386
+Version: 15.10.1mx15
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-findshares - MX wrapper for findshares program
+Changes:
+ mx-findshares (15.10.1mx15) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 399af2116e08bb17e8497d2e9eba8b835fd0f0b8 683 mx-findshares_15.10.1mx15.dsc
+ 523b9aea8ede7a5754128bbbfd10aa2942c36cc2 39128 mx-findshares_15.10.1mx15.tar.xz
+ 0f51ff03ec5590792d297e13f8dbde61a81b44b9 42158 mx-findshares_15.10.1mx15_i386.deb
+Checksums-Sha256:
+ 9fb5495a8b0e58dc2aff427fb5840ab79ef6fadfd8b4a7ff88546ed8f35234e5 683 mx-findshares_15.10.1mx15.dsc
+ ef51fee84e7bfeedaccd5167f58512d6d287162e84e3807db722c114cd60b8cc 39128 mx-findshares_15.10.1mx15.tar.xz
+ 34bec81cc35017545d045d4f003f017b1825bacca441c9e9ebd5baa2f0ce3dd9 42158 mx-findshares_15.10.1mx15_i386.deb
+Files:
+ ff400087161f6d024b3fb97f8a6001f4 683 admin optional mx-findshares_15.10.1mx15.dsc
+ ba3ce758289d76da898b156cce410ca6 39128 admin optional mx-findshares_15.10.1mx15.tar.xz
+ 6165a1edab43b61df7812ecc6c993ccc 42158 admin optional mx-findshares_15.10.1mx15_i386.deb
