@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.0">
 <context>
     <name>mxfindshares</name>
     <message>
@@ -32,7 +30,7 @@
     <message>
         <location filename="../mxfindshares.ui" line="60"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Questo programma elenca tutte le risorse condivise disponibili in rete. Premendo &amp;quot;Avvia&amp;quot; il programma mostrerà un elenco con computer e risorse condivise ordinato per gruppi di rete, sia locali che remoti.&lt;/p&gt;&lt;p&gt;Prego, scegli una delle opzioni disponibili e premi il bottone &amp;quot;Avvia&amp;quot; &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Questo programma elenca tutte le risorse condivise disponibili in rete. Premendo &amp;quot;Avvia&amp;quot; il programma mostrerà un elenco, ordinato per gruppi presenti in un network di rete, locale o remoto, di computer e altre risorse che possono essere condivise.&lt;/p&gt;&lt;p&gt;Prego, scegli una delle opzioni disponibili e premi il pulsante &amp;quot;Avvia&amp;quot; &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="110"/>
@@ -57,7 +55,7 @@
     <message>
         <location filename="../mxfindshares.ui" line="192"/>
         <source>Start scanning for shares</source>
-        <translation>Avvia la ricerca di risorse condivse</translation>
+        <translation>Avvia la ricerca di risorse condivise</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="195"/>
@@ -129,7 +127,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="172"/>
         <source>Simple package for finding network shares for antiX MX</source>
-        <translation>Semplice applicazione di antiX MX per trovare risorse condivise in rete.</translation>
+        <translation>Applicazione di antiX MX per trovare risorse condivise in rete, di facile uso.</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="173"/>
