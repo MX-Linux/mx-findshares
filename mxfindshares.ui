@@ -14,7 +14,8 @@
    <string>MX Find Shares</string>
   </property>
   <property name="windowIcon">
-   <iconset theme="find"/>
+   <iconset theme="find">
+    <normaloff>../../../../../../../usr/share/pixmaps/mx-findshares.xpm</normaloff>../../../../../../../usr/share/pixmaps/mx-findshares.xpm</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>

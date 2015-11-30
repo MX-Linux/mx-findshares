@@ -10,89 +10,89 @@
         <translation>MX Find Shares</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="30"/>
+        <location filename="../mxfindshares.ui" line="31"/>
         <source>Options:</source>
         <translation>Opties:</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="36"/>
+        <location filename="../mxfindshares.ui" line="37"/>
         <source>Show all shares</source>
         <translation>Laat alle shares zien</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="43"/>
+        <location filename="../mxfindshares.ui" line="44"/>
         <source>Show only Windows/Samba shares</source>
         <translation>Laat alleen Windows/Samba shares zien</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="50"/>
+        <location filename="../mxfindshares.ui" line="51"/>
         <source>Show only NFS shares</source>
         <translation>Laat alleen NFS shares zien</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="60"/>
+        <location filename="../mxfindshares.ui" line="61"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dit programma laat alle shares zien die beschikbaar zijn op het netwerk. Als je drukt op &amp;quot;Start&amp;quot; laat het programma een lijst zien met machines en shares, op volgorde van netwerkgroepen, zowel lokaal als op afstand. the.&lt;/p&gt;&lt;p&gt;Kies een van de beschikbare opties en druk op de &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="110"/>
+        <location filename="../mxfindshares.ui" line="111"/>
         <source>Save results</source>
         <translation>Bewaar de resultaten</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="147"/>
+        <location filename="../mxfindshares.ui" line="148"/>
         <source>Display help </source>
         <translation>Toon help</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="150"/>
+        <location filename="../mxfindshares.ui" line="151"/>
         <source>Help</source>
         <translation>Help</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="157"/>
+        <location filename="../mxfindshares.ui" line="158"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="192"/>
+        <location filename="../mxfindshares.ui" line="193"/>
         <source>Start scanning for shares</source>
         <translation>Start het scannen naar shares</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="195"/>
+        <location filename="../mxfindshares.ui" line="196"/>
         <location filename="../mxfindshares.cpp" line="156"/>
         <source>Start</source>
         <translation>Starten</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="221"/>
+        <location filename="../mxfindshares.ui" line="222"/>
         <source>Quit application</source>
         <translation>Verlaat de applicatie</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="224"/>
+        <location filename="../mxfindshares.ui" line="225"/>
         <location filename="../mxfindshares.cpp" line="177"/>
         <source>Cancel</source>
         <translation>Cancel</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="231"/>
+        <location filename="../mxfindshares.ui" line="232"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="247"/>
+        <location filename="../mxfindshares.ui" line="248"/>
         <source>About this application</source>
         <translation>Over deze toepassing</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="250"/>
+        <location filename="../mxfindshares.ui" line="251"/>
         <source>About...</source>
         <translation>Over...</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="257"/>
+        <location filename="../mxfindshares.ui" line="258"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>

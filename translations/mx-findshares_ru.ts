@@ -10,89 +10,89 @@
         <translation>MX Поиск общих ресурсов</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="30"/>
+        <location filename="../mxfindshares.ui" line="31"/>
         <source>Options:</source>
         <translation>Опции:</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="36"/>
+        <location filename="../mxfindshares.ui" line="37"/>
         <source>Show all shares</source>
         <translation>Показать общие ресурсы</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="43"/>
+        <location filename="../mxfindshares.ui" line="44"/>
         <source>Show only Windows/Samba shares</source>
         <translation>Показать только ресурсы Windows/Samba</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="50"/>
+        <location filename="../mxfindshares.ui" line="51"/>
         <source>Show only NFS shares</source>
         <translation>Показать только ресурсы NFS</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="60"/>
+        <location filename="../mxfindshares.ui" line="61"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Эта программа перечисляет все общие ресурсы, доступные в сети. Когда Вы нажмете &amp;quot;Старт,&amp;quot; программа отобразит список компьютеров с общими ресурсами, упорядоченные по сетевым группам, как местных, так и удаленных.&lt;/p&gt;&lt;p&gt;Выберите один из доступных вариантов и нажмите кнопку &amp;quot;Старт&amp;quot;.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="110"/>
+        <location filename="../mxfindshares.ui" line="111"/>
         <source>Save results</source>
         <translation>Сохранить результаты</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="147"/>
+        <location filename="../mxfindshares.ui" line="148"/>
         <source>Display help </source>
         <translation>Показать справку</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="150"/>
+        <location filename="../mxfindshares.ui" line="151"/>
         <source>Help</source>
         <translation>Справка</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="157"/>
+        <location filename="../mxfindshares.ui" line="158"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="192"/>
+        <location filename="../mxfindshares.ui" line="193"/>
         <source>Start scanning for shares</source>
         <translation>Старт сканирования</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="195"/>
+        <location filename="../mxfindshares.ui" line="196"/>
         <location filename="../mxfindshares.cpp" line="156"/>
         <source>Start</source>
         <translation>Старт</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="221"/>
+        <location filename="../mxfindshares.ui" line="222"/>
         <source>Quit application</source>
         <translation>Выйти из приложения</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="224"/>
+        <location filename="../mxfindshares.ui" line="225"/>
         <location filename="../mxfindshares.cpp" line="177"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="231"/>
+        <location filename="../mxfindshares.ui" line="232"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="247"/>
+        <location filename="../mxfindshares.ui" line="248"/>
         <source>About this application</source>
         <translation>Об этом приложении</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="250"/>
+        <location filename="../mxfindshares.ui" line="251"/>
         <source>About...</source>
         <translation>O...</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="257"/>
+        <location filename="../mxfindshares.ui" line="258"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>

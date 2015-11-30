@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 30 Nov 2015 11:51:37 -0500
+Source: mx-findshares
+Binary: mx-findshares
+Architecture: i386
+Version: 15.11mx15
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-findshares - MX wrapper for findshares program
+Changes:
+ mx-findshares (15.11mx15) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 0df95225765eb2eda69c5d28d98d69852db2960d 42296 mx-findshares_15.11mx15_i386.deb
+Checksums-Sha256:
+ 6322f3fe3ef1b517040532e1478c77b5e5bac980829897348f7bb5935c695b47 42296 mx-findshares_15.11mx15_i386.deb
+Files:
+ e59f549ab6efa62cc84e20a88c4df110 42296 admin optional mx-findshares_15.11mx15_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJWXNi6AAoJEHCTjHgGee6YXVAH/35xe+00chvqKi+1xq9SdiGS
+xPRCptungJjd+cszW+Pl5g1hv57UyrwQKW7n9ssb+0volYUe0Z/V67koRj3GwgXk
++sGwq5KvdaEidg3SLUeRfFEtMFwaxO2GJwhGdhejRQFP5u3nFlDLO7MOuzHNreeu
+xtcAQjmYxMrKrbI+ALM1HKTaSQDuV4IaTTEdcF3g9oklyULVvrNDYVnS30BZQBVf
+NGjR2w9l/ns4m4+hlSnUhgLEO/M7SpwvymQ45bExcHOngpBIStCk7BiJz+jzdUJp
+HEW2pBG2cfVi3sd16fcupeTWQMpj2cgnNN59xDXPmm7tphIYsN/SnYLvWRu9u9Q=
+=IiAc
+-----END PGP SIGNATURE-----

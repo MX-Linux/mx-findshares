@@ -10,89 +10,89 @@
         <translation>MX 共有検索</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="30"/>
+        <location filename="../mxfindshares.ui" line="31"/>
         <source>Options:</source>
         <translation>オプション:</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="36"/>
+        <location filename="../mxfindshares.ui" line="37"/>
         <source>Show all shares</source>
         <translation>すべての共有を表示</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="43"/>
+        <location filename="../mxfindshares.ui" line="44"/>
         <source>Show only Windows/Samba shares</source>
         <translation>Windows・Samba 共有のみ表示</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="50"/>
+        <location filename="../mxfindshares.ui" line="51"/>
         <source>Show only NFS shares</source>
         <translation>NFS 共有のみ表示</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="60"/>
+        <location filename="../mxfindshares.ui" line="61"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このプログラムは利用可能なネットワーク共有を一覧します。&amp;quot;スタート&amp;quot; を押すとプログラムはネットワークグループ・ローカル・リモート内のコンピュータおよび共有を一覧表示します。&lt;/p&gt;&lt;p&gt;利用できるオプションから一つを選択し、&amp;quot;スタート&amp;quot; を押して下さい。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="110"/>
+        <location filename="../mxfindshares.ui" line="111"/>
         <source>Save results</source>
         <translation>結果を保存</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="147"/>
+        <location filename="../mxfindshares.ui" line="148"/>
         <source>Display help </source>
         <translation>ヘルプを表示</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="150"/>
+        <location filename="../mxfindshares.ui" line="151"/>
         <source>Help</source>
         <translation>ヘルプ</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="157"/>
+        <location filename="../mxfindshares.ui" line="158"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="192"/>
+        <location filename="../mxfindshares.ui" line="193"/>
         <source>Start scanning for shares</source>
         <translation>共有の検索を開始</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="195"/>
+        <location filename="../mxfindshares.ui" line="196"/>
         <location filename="../mxfindshares.cpp" line="156"/>
         <source>Start</source>
         <translation>開始</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="221"/>
+        <location filename="../mxfindshares.ui" line="222"/>
         <source>Quit application</source>
         <translation>アプリケーションの終了</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="224"/>
+        <location filename="../mxfindshares.ui" line="225"/>
         <location filename="../mxfindshares.cpp" line="177"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="231"/>
+        <location filename="../mxfindshares.ui" line="232"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="247"/>
+        <location filename="../mxfindshares.ui" line="248"/>
         <source>About this application</source>
         <translation>このアプリケーションについて</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="250"/>
+        <location filename="../mxfindshares.ui" line="251"/>
         <source>About...</source>
         <translation>About...</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="257"/>
+        <location filename="../mxfindshares.ui" line="258"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
