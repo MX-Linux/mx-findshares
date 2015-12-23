@@ -18,26 +18,26 @@ Changes:
  .
    * hide GUI when displaying help/license
 Checksums-Sha1:
- e70b2736c90e76ee03ab19e584d76f9b0878e96e 1205 mx-findshares_15.12mx15.dsc
- a3e6c10c93a1e1309488a1c96595c2ffed0b3da8 79520 mx-findshares_15.12mx15.tar.xz
- d7a2c0a4f1d3ee23bf54cbc6115db08d8fdd0065 42576 mx-findshares_15.12mx15_amd64.deb
+ 18e9275150369b4c55f89b94e682c586abecd9e1 1208 mx-findshares_15.12mx15.dsc
+ 6a0334f8cb5c18ced3d93cac0207c2711fcbb973 201812 mx-findshares_15.12mx15.tar.xz
+ 0116a30a71317f796fdf06a67b98376d937029c8 43628 mx-findshares_15.12mx15_amd64.deb
 Checksums-Sha256:
- d1abedfebe5c8c51586b9e21955d8196e9fba688e77949e46cd1c20d46a09cea 1205 mx-findshares_15.12mx15.dsc
- 7e2e95a556dcd33aae3489a2a4d3983f9a567aa513505ae3effacf039e106c66 79520 mx-findshares_15.12mx15.tar.xz
- 3458d78249d8d5004e64ec4033336ec1f0bc6ce0e3b613ac9117a6f92ea3368e 42576 mx-findshares_15.12mx15_amd64.deb
+ 3adcda05fafd704a6253f8c9d8b31eb3f11d6b43f3db8504b311e871babe45b2 1208 mx-findshares_15.12mx15.dsc
+ 878ef63991ac82c9cfcd7377e49314b7e96bec16b6cecc1717d908c8edb482c2 201812 mx-findshares_15.12mx15.tar.xz
+ 251bac19467ec5caa48b9e8d741c37cdcabee7a8b461a3d4a589eb8de43c2b00 43628 mx-findshares_15.12mx15_amd64.deb
 Files:
- 96e59c699ad994ef5dfe2475acaa9fa2 1205 admin optional mx-findshares_15.12mx15.dsc
- 6159207e278b9eea9c50650ffa8406de 79520 admin optional mx-findshares_15.12mx15.tar.xz
- afd3792915856b4ab0bf1ef24bb076d5 42576 admin optional mx-findshares_15.12mx15_amd64.deb
+ f04a93fdf4c4c8b56fd2aaa85a07417c 1208 admin optional mx-findshares_15.12mx15.dsc
+ e260bd1c921b003483434ea607ef2c70 201812 admin optional mx-findshares_15.12mx15.tar.xz
+ 881b1da2b2e6f34d7c37ec94fcf3f2d4 43628 admin optional mx-findshares_15.12mx15_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWeg1CAAoJEHCTjHgGee6YxRkH/2RLK9+NdkfkWofOnQybmaMk
-8/Ekkx8B+IpiCzPQGfmYkiwRvEvdUwEeZBJTGyneeRZw5S8VRfbQbEPjVO63v75a
-JScdPb1Q/iRfHAXdZNqX5RGu2j+1PoCxtI9CdAEROlX5nrGrjVfD0rVmc4AydegZ
-FQWT9H5d4BGzSy5WAW4FY7cQqXg7BA3SvcThBpM6aRCh9/Q/Yg0JzXRovPM5CG00
-1zl9l1U7c7XVFXFTtihJDL229gUGFA+mda09GGzoYLhP8AbAZAvF/KRxGIcMYZaP
-7sGDEVDOFdnkvtNT3g1I13tT1wLs7eMtWd4beqHYjSsttBvPS12KAGzmqwWYkj4=
-=M2iP
+iQEcBAEBAgAGBQJWehwpAAoJEHCTjHgGee6Y2pwH/jwUOROM63FhtDKj5+dtclTU
+Lh0PaWBeIip8xZ/RYTiT0dpl4MHnNseGGPro5K0TQDH60kbxMaXSDFtIjC8Ecw6C
+4WztNMGuCTbltW/YVJGIYquBoeaDaRcixuhyeImISiKPiV95hEWJS0Eux8ur6dwP
+kY83Ui1suCF/V8p9N2x21HI0X0zIteHe0uD1BbDufVreO50OL/kyzwFS+SwRgg3L
+yDVNwfbvGpE30UbGnFhY43NI6PkOF59k+b1z/8uOTHvzHi+dbAPm2yXQDYJQpN1/
+dXAVc1PArZtmTFSA4bLeqkYaqHrw09G8JvZgL+GEg2I7Ijl6SEzmzefd1fRVQFc=
+=4dTY
 -----END PGP SIGNATURE-----
