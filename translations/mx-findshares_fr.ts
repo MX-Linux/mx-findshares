@@ -5,7 +5,7 @@
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
-        <location filename="../mxfindshares.cpp" line="170"/>
+        <location filename="../mxfindshares.cpp" line="171"/>
         <source>MX Find Shares</source>
         <translation>MX Find Shares</translation>
     </message>
@@ -72,7 +72,7 @@
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="225"/>
-        <location filename="../mxfindshares.cpp" line="177"/>
+        <location filename="../mxfindshares.cpp" line="178"/>
         <source>Cancel</source>
         <translation>Annuler</translation>
     </message>
@@ -117,44 +117,44 @@
         <translation>&lt; Précédent</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="169"/>
+        <location filename="../mxfindshares.cpp" line="170"/>
         <source>About MX Find Shares</source>
         <translation>A propos de MX Find Shares</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="170"/>
+        <location filename="../mxfindshares.cpp" line="171"/>
         <source>Version: </source>
         <translation>Version</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="172"/>
+        <location filename="../mxfindshares.cpp" line="173"/>
         <source>Simple package for finding network shares for antiX MX</source>
         <translation>Application simple pour trouver des partages réseau</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="173"/>
+        <location filename="../mxfindshares.cpp" line="174"/>
         <source>This program is composed of two packages:</source>
         <translation>Cette application se compose de deux paquets</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="175"/>
+        <location filename="../mxfindshares.cpp" line="176"/>
         <source>Copyright (c) antiX
 </source>
         <translation>Droit d&apos;auteur (c) antiX
 </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="176"/>
+        <location filename="../mxfindshares.cpp" line="177"/>
         <source>License</source>
         <translation>License</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="192"/>
+        <location filename="../mxfindshares.cpp" line="196"/>
         <source>Save File</source>
         <translation>Enregistrer le fichier</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="193"/>
+        <location filename="../mxfindshares.cpp" line="197"/>
         <source>network_shares.txt</source>
         <translation>network_shares.txt</translation>
     </message>

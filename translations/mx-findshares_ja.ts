@@ -5,7 +5,7 @@
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
-        <location filename="../mxfindshares.cpp" line="170"/>
+        <location filename="../mxfindshares.cpp" line="171"/>
         <source>MX Find Shares</source>
         <translation>MX 共有検索</translation>
     </message>
@@ -72,7 +72,7 @@
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="225"/>
-        <location filename="../mxfindshares.cpp" line="177"/>
+        <location filename="../mxfindshares.cpp" line="178"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
@@ -117,44 +117,44 @@
         <translation>&lt; 戻る</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="169"/>
+        <location filename="../mxfindshares.cpp" line="170"/>
         <source>About MX Find Shares</source>
         <translation>MX 共有検索について</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="170"/>
+        <location filename="../mxfindshares.cpp" line="171"/>
         <source>Version: </source>
         <translation>Version: </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="172"/>
+        <location filename="../mxfindshares.cpp" line="173"/>
         <source>Simple package for finding network shares for antiX MX</source>
         <translation>antiX MX のネットワーク共有を検索するシンプルパッケージ</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="173"/>
+        <location filename="../mxfindshares.cpp" line="174"/>
         <source>This program is composed of two packages:</source>
         <translation>このプログラムは2つのパッケージで構成されます:</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="175"/>
+        <location filename="../mxfindshares.cpp" line="176"/>
         <source>Copyright (c) antiX
 </source>
         <translation>Copyright (c) antiX
 </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="176"/>
+        <location filename="../mxfindshares.cpp" line="177"/>
         <source>License</source>
         <translation>ライセンス</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="192"/>
+        <location filename="../mxfindshares.cpp" line="196"/>
         <source>Save File</source>
         <translation>ファイルを保存</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="193"/>
+        <location filename="../mxfindshares.cpp" line="197"/>
         <source>network_shares.txt</source>
         <translation>network_shares.txt</translation>
     </message>

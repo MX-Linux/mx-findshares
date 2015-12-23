@@ -165,6 +165,7 @@ void mxfindshares::on_buttonStart_clicked() {
 
 // About button clicked
 void mxfindshares::on_buttonAbout_clicked() {
+    this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
                        tr("About MX Find Shares"), "<p align=\"center\"><b><h2>" +
                        tr("MX Find Shares") + "</h2></b></p><p align=\"center\">" + tr("Version: ") +
@@ -177,12 +178,15 @@ void mxfindshares::on_buttonAbout_clicked() {
     msgBox.addButton(tr("Cancel"), QMessageBox::RejectRole);
     if (msgBox.exec() == QMessageBox::AcceptRole)
         system("mx-viewer file:///usr/share/bin/mx-findshares/license.html 'MX Find Shares License'");
+    this->show();
 }
 
 
 // Help button clicked
 void mxfindshares::on_buttonHelp_clicked() {
+    this->hide();
     system("mx-viewer http://mepiscommunity.org/wiki/help-files/help-mx-find-shares 'MX Find Shares Help'");
+    this->show();
 }
 
 

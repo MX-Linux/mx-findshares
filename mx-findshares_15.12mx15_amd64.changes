@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 22 Dec 2015 21:54:46 -0500
+Source: mx-findshares
+Binary: mx-findshares
+Architecture: source amd64
+Version: 15.12mx15
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-findshares - MX wrapper for findshares program
+Changes:
+ mx-findshares (15.12mx15) mx; urgency=medium
+ .
+   * hide GUI when displaying help/license
+Checksums-Sha1:
+ e70b2736c90e76ee03ab19e584d76f9b0878e96e 1205 mx-findshares_15.12mx15.dsc
+ a3e6c10c93a1e1309488a1c96595c2ffed0b3da8 79520 mx-findshares_15.12mx15.tar.xz
+ d7a2c0a4f1d3ee23bf54cbc6115db08d8fdd0065 42576 mx-findshares_15.12mx15_amd64.deb
+Checksums-Sha256:
+ d1abedfebe5c8c51586b9e21955d8196e9fba688e77949e46cd1c20d46a09cea 1205 mx-findshares_15.12mx15.dsc
+ 7e2e95a556dcd33aae3489a2a4d3983f9a567aa513505ae3effacf039e106c66 79520 mx-findshares_15.12mx15.tar.xz
+ 3458d78249d8d5004e64ec4033336ec1f0bc6ce0e3b613ac9117a6f92ea3368e 42576 mx-findshares_15.12mx15_amd64.deb
+Files:
+ 96e59c699ad994ef5dfe2475acaa9fa2 1205 admin optional mx-findshares_15.12mx15.dsc
+ 6159207e278b9eea9c50650ffa8406de 79520 admin optional mx-findshares_15.12mx15.tar.xz
+ afd3792915856b4ab0bf1ef24bb076d5 42576 admin optional mx-findshares_15.12mx15_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJWeg1CAAoJEHCTjHgGee6YxRkH/2RLK9+NdkfkWofOnQybmaMk
+8/Ekkx8B+IpiCzPQGfmYkiwRvEvdUwEeZBJTGyneeRZw5S8VRfbQbEPjVO63v75a
+JScdPb1Q/iRfHAXdZNqX5RGu2j+1PoCxtI9CdAEROlX5nrGrjVfD0rVmc4AydegZ
+FQWT9H5d4BGzSy5WAW4FY7cQqXg7BA3SvcThBpM6aRCh9/Q/Yg0JzXRovPM5CG00
+1zl9l1U7c7XVFXFTtihJDL229gUGFA+mda09GGzoYLhP8AbAZAvF/KRxGIcMYZaP
+7sGDEVDOFdnkvtNT3g1I13tT1wLs7eMtWd4beqHYjSsttBvPS12KAGzmqwWYkj4=
+=M2iP
+-----END PGP SIGNATURE-----
