@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 23 May 2016 13:11:51 -0400
+Source: mx-findshares
+Binary: mx-findshares
+Architecture: source amd64
+Version: 16.5mx15
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: dolphinoracle <dolphinoracle@gmail.com>
+Description:
+ mx-findshares - MX wrapper for findshares program
+Changes:
+ mx-findshares (16.5mx15) mx; urgency=medium
+ .
+   * new desktop file
+Checksums-Sha1:
+ a1722585ad5501b94ad92965ddd4c4edb6025915 680 mx-findshares_16.5mx15.dsc
+ fc077629dd10fd880d53c0199484db182e4b6c5f 40428 mx-findshares_16.5mx15.tar.xz
+ 88c047ed123b034887e148dea786adecb4b23181 43644 mx-findshares_16.5mx15_amd64.deb
+Checksums-Sha256:
+ b8818b133a2266951099eb730f8ce8f94323f15e3fddb5b918408dcd356d445b 680 mx-findshares_16.5mx15.dsc
+ e8957d6b75f296841641b445ea415bfcd1142010dc1225ed34a085b67aac64b7 40428 mx-findshares_16.5mx15.tar.xz
+ a5319c6de6e8ad959ce468e5373eeb3cee1d42b3b5dbbf6693ac2efdb2686720 43644 mx-findshares_16.5mx15_amd64.deb
+Files:
+ cfa1f08a8cadf5077fb5d96f339fef7c 680 admin optional mx-findshares_16.5mx15.dsc
+ ece336d3b03f9d56a8a57d69353cf0a1 40428 admin optional mx-findshares_16.5mx15.tar.xz
+ 3b635ce3a84937cd2c0eeb717971cb4c 43644 admin optional mx-findshares_16.5mx15_amd64.deb
