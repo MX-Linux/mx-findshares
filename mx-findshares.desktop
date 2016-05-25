@@ -28,6 +28,6 @@ Comment[sv]=Hitta nätverksresurser
 Icon=mx-findshares.png
 Exec=mx-findshares
 NoDisplay=false
-Categories=System;
+Categories=System;MX-Utilities;
 Terminal=false
 Type=Application
