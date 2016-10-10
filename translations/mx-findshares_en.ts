@@ -126,8 +126,8 @@
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="172"/>
-        <source>Simple package for finding network shares for antiX MX</source>
-        <translation>Simple package for finding network shares for antiX MX</translation>
+        <source>Simple package for finding network shares for MX Linux</source>
+        <translation>Simple package for finding network shares for MX Linux</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="173"/>
@@ -136,9 +136,9 @@
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="175"/>
-        <source>Copyright (c) antiX
+        <source>Copyright (c) MX Linux
 </source>
-        <translation>Copyright (c) antiX
+        <translation>Copyright (c) MX Linux
 </translation>
     </message>
     <message>
