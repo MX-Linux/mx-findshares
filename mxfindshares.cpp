@@ -170,7 +170,7 @@ void mxfindshares::on_buttonAbout_clicked() {
                        tr("About MX Find Shares"), "<p align=\"center\"><b><h2>" +
                        tr("MX Find Shares") + "</h2></b></p><p align=\"center\">" + tr("Version: ") +
                        getVersion("mx-findshares") + "</p><p align=\"center\"><h3>" +
-                       tr("Simple package for finding network shares for antiX MX") + "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p>" +
+                       tr("Simple package for finding network shares for MX Linux") + "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p>" +
                        tr("This program is composed of two packages:") +
                        "<p>findshares, the CLI utility: Copyright (c) Richard A. Rost</p>" +
                        "<p>mx-findshares, the GUI wrapper: " + tr("Copyright (c) MX Linux\n") + "<br /><br /></p>", 0, this);
