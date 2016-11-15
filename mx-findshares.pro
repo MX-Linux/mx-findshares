@@ -50,7 +50,10 @@ TRANSLATIONS += translations/mx-findshares_ca.ts \
                 translations/mx-findshares_ja.ts \
                 translations/mx-findshares_nl.ts \
                 translations/mx-findshares_pl.ts \
+                translations/mx-findshares_pt.ts \
+                translations/mx-findshares_ro.ts \
                 translations/mx-findshares_ru.ts \
-                translations/mx-findshares_sv.ts
+                translations/mx-findshares_sv.ts \
+                translations/mx-findshares_tr.ts
 
 

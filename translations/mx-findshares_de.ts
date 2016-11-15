@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
 <context>
     <name>mxfindshares</name>
     <message>
@@ -128,12 +126,8 @@
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="173"/>
-        <source>Simple package for finding network shares for antiX MX</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Simple package for finding network shares for MX Linux</source>
-        <translation type="vanished">EInfache Anwendung, um Netzwerkfreigaben für MX Linux zu finden</translation>
+        <translation>EInfache Anwendung, um Netzwerkfreigaben für MX Linux zu finden</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="174"/>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="el">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="el" version="2.1">
 <context>
     <name>mxfindshares</name>
     <message>
@@ -128,12 +126,8 @@
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="173"/>
-        <source>Simple package for finding network shares for antiX MX</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Simple package for finding network shares for MX Linux</source>
-        <translation type="vanished">Απλό πακέτο για την εξεύρεση μετοχών του δικτύου για MX Linux.</translation>
+        <translation>Απλό πακέτο για την εξεύρεση μετοχών του δικτύου για MX Linux.</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="174"/>
@@ -144,7 +138,8 @@
         <location filename="../mxfindshares.cpp" line="176"/>
         <source>Copyright (c) MX Linux
 </source>
-        <translation>Copyright (c) MX Linux </translation>
+        <translation>Copyright (c) MX Linux
+</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="177"/>
