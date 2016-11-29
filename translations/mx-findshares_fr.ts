@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
 <context>
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
         <location filename="../mxfindshares.cpp" line="171"/>
         <source>MX Find Shares</source>
-        <translation>MX Find Shares</translation>
+        <translation>MX Recherche de partage réseau</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="31"/>
@@ -22,17 +20,17 @@
     <message>
         <location filename="../mxfindshares.ui" line="44"/>
         <source>Show only Windows/Samba shares</source>
-        <translation>Montrer seulement les partages réseau Windows/Samba</translation>
+        <translation>Montrer uniquement les partages réseau Windows/Samba</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="51"/>
         <source>Show only NFS shares</source>
-        <translation>Montrer seulement les partages réseau NSF</translation>
+        <translation>Montrer uniquement les partages réseau NSF</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="61"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cette application liste tous les partages réseau disponibles sur le réseau. Quand vous appuyez sur &amp;quot;Start&amp;quot; l&apos;application montre une liste avec les machines et partages réseau locaux et à distance, ordonné par groupes de réseau.&lt;/p&gt;&lt;p&gt;Veuillez choisir une des options disponibles et appuyez sur le bouton de démarrage.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cette application liste tous les partages réseau disponibles sur le réseau. Appuyez sur &amp;quot;Démarrrer&amp;quot; et l&apos;application affichera une liste des machines et partages réseau, organisée par groupes de réseaux, locaux et à distance.&lt;/p&gt;&lt;p&gt;Veuillez choisir une des options disponibles et appuyez sur le bouton &amp;quot;Démarrrer&amp;quot;.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="111"/>
@@ -109,7 +107,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="106"/>
         <source>Process finished. Errors have occurred.</source>
-        <translation>Processus terminé. Des erreurs sont survenues.</translation>
+        <translation>Processus terminé. Des erreurs se sont produites.</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="110"/>
@@ -119,7 +117,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="170"/>
         <source>About MX Find Shares</source>
-        <translation>A propos de MX Find Shares</translation>
+        <translation>A propos de MX Recherche de partage réseau</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="171"/>
@@ -129,7 +127,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="173"/>
         <source>Simple package for finding network shares for MX Linux</source>
-        <translation>Application simple de MX Linux pour trouver des partages réseau</translation>
+        <translation>Application simple de MX Linux permettant de trouver des partages réseau</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="174"/>
@@ -146,7 +144,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="177"/>
         <source>License</source>
-        <translation>License</translation>
+        <translation>Licence</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="196"/>
@@ -156,7 +154,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="197"/>
         <source>network_shares.txt</source>
-        <translation>network_shares.txt</translation>
+        <translation>partages_reseau.txt</translation>
     </message>
 </context>
 </TS>
