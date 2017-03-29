@@ -42,12 +42,14 @@ HEADERS  += mxfindshares.h
 FORMS    += mxfindshares.ui
 
 TRANSLATIONS += translations/mx-findshares_ca.ts \
+                translations/mx-findshares_cs.ts \
                 translations/mx-findshares_de.ts \
                 translations/mx-findshares_el.ts \
                 translations/mx-findshares_es.ts \
                 translations/mx-findshares_fr.ts \
                 translations/mx-findshares_it.ts \
                 translations/mx-findshares_ja.ts \
+                translations/mx-findshares_lt.ts \
                 translations/mx-findshares_nl.ts \
                 translations/mx-findshares_pl.ts \
                 translations/mx-findshares_pt.ts \

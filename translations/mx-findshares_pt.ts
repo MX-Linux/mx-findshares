@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.1">
 <context>
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
         <location filename="../mxfindshares.cpp" line="171"/>
         <source>MX Find Shares</source>
-        <translation>MX_Detector de Partilhas</translation>
+        <translation>Detetor de Partilhas MX</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="31"/>

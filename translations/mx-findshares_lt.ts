@@ -1,51 +1,51 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.1">
 <context>
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
         <location filename="../mxfindshares.cpp" line="171"/>
         <source>MX Find Shares</source>
-        <translation>MX Recursos Compartidos</translation>
+        <translation>MX Rasti viešinius</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="31"/>
         <source>Options:</source>
-        <translation>Opciones</translation>
+        <translation>Parametrai:</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="37"/>
         <source>Show all shares</source>
-        <translation>Mostrar todos los recursos compartidos</translation>
+        <translation>Rodyti visus viešinius</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="44"/>
         <source>Show only Windows/Samba shares</source>
-        <translation>Mostrar sólo los recursos compartidos de Windows/Samba</translation>
+        <translation>Rodyti tik Windows/Samba viešinius</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="51"/>
         <source>Show only NFS shares</source>
-        <translation>Mostrar sólo los recursos compartidos NFS</translation>
+        <translation>Rodyti tik NFS viešinius</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="61"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Este programa lista todos los recursos compartidos disponibles en la red de trabajo. Al presionar &amp;quot;Inicio&amp;quot; el programa desplegará una lista con los equipos y recursos compartidos ordenados por grupos en la red de trabajo, tanto localmente como de forma remota.&lt;/p&gt;&lt;p&gt;Por favor escoja una de las opciones disponibles y presione el botón de &amp;quot;Inicio&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ši programa išvardija visus tinkle prieinamus viešinius. Kai paspausite &amp;quot;Pradėti&amp;quot;, programa parodys kompiuterių ir viešinių sąrašą, surikiuotą pagal tinklo grupes, tiek vietines, tiek ir nuotolines.&lt;/p&gt;&lt;p&gt;Prašome pasirinkti vieną iš prieinamų parametrų ir paspausti mygtuką &amp;quot;Pradėti&amp;quot;.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="111"/>
         <source>Save results</source>
-        <translation>Guardar los resultados</translation>
+        <translation>Įrašyti rezultatus</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="148"/>
         <source>Display help </source>
-        <translation>Mostrar la ayuda</translation>
+        <translation>Rodyti žinyną</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="151"/>
         <source>Help</source>
-        <translation>Ayuda</translation>
+        <translation>Žinynas</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="158"/>
@@ -55,24 +55,24 @@
     <message>
         <location filename="../mxfindshares.ui" line="193"/>
         <source>Start scanning for shares</source>
-        <translation>Empezar a buscar recursos compartidos</translation>
+        <translation>Pradėti viešinių peržiūrą</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="196"/>
         <location filename="../mxfindshares.cpp" line="156"/>
         <source>Start</source>
-        <translation>Inicio</translation>
+        <translation>Pradėti</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="222"/>
         <source>Quit application</source>
-        <translation>Terminar aplicación</translation>
+        <translation>Išeiti iš programos</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="225"/>
         <location filename="../mxfindshares.cpp" line="178"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation>Atsisakyti</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="232"/>
@@ -82,12 +82,12 @@
     <message>
         <location filename="../mxfindshares.ui" line="248"/>
         <source>About this application</source>
-        <translation>Acerca de esta aplicación</translation>
+        <translation>Apie šią programą</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="251"/>
         <source>About...</source>
-        <translation>Acerca de...</translation>
+        <translation>Apie...</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="258"/>
@@ -97,64 +97,64 @@
     <message>
         <location filename="../mxfindshares.cpp" line="103"/>
         <source>Finished searching for shares.</source>
-        <translation>Se completó la búsqueda de recursos compartidos</translation>
+        <translation>Viešinių peržiūra užbaigta.</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="105"/>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>Klaida</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="106"/>
         <source>Process finished. Errors have occurred.</source>
-        <translation>Proceso finalizado.  Ocurrieron errores.</translation>
+        <translation>Procesas užbaigtas. Atsirado klaidų.</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="110"/>
         <source>&lt; Back</source>
-        <translation>&lt; Anterior</translation>
+        <translation>&lt; Atgal</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="170"/>
         <source>About MX Find Shares</source>
-        <translation>Acerca de MX Búsqueda de Recursos Compartidos</translation>
+        <translation>About MX Rasti viešinius</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="171"/>
         <source>Version: </source>
-        <translation>Versión:</translation>
+        <translation>Versija: </translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="173"/>
         <source>Simple package for finding network shares for MX Linux</source>
-        <translation>Paquete simple de MX Linux para encontrar recursos compartidos en redes de trabajo</translation>
+        <translation>Paprastas MX Linux paketas, skirtas rasti tinklo viešinius</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="174"/>
         <source>This program is composed of two packages:</source>
-        <translation>Este programa se compone de dos paquetes:</translation>
+        <translation>Ši programa yra sudaryta iš dviejų paketų:</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="176"/>
         <source>Copyright (c) MX Linux
 </source>
-        <translation>Copyright (c) MX Linux
+        <translation>Autorių teisės (c) MX Linux
 </translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="177"/>
         <source>License</source>
-        <translation>Licencia</translation>
+        <translation>Licencija</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="196"/>
         <source>Save File</source>
-        <translation>Guardar Archivo</translation>
+        <translation>Įrašyti failą</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="197"/>
         <source>network_shares.txt</source>
-        <translation>network_shares.txt</translation>
+        <translation>tinklo_viešiniai.txt</translation>
     </message>
 </context>
 </TS>
