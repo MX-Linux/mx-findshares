@@ -175,9 +175,10 @@ void mxfindshares::on_buttonAbout_clicked() {
                        "<p>findshares, the CLI utility: Copyright (c) Richard A. Rost</p>" +
                        "<p>mx-findshares, the GUI wrapper: " + tr("Copyright (c) MX Linux\n") + "<br /><br /></p>", 0, this);
     msgBox.addButton(tr("License"), QMessageBox::AcceptRole);
-    msgBox.addButton(tr("Cancel"), QMessageBox::RejectRole);
-    if (msgBox.exec() == QMessageBox::AcceptRole)
+    msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
+    if (msgBox.exec() == QMessageBox::AcceptRole) {
         system("mx-viewer file:///usr/share/bin/mx-findshares/license.html 'MX Find Shares License'");
+    }
     this->show();
 }
 
