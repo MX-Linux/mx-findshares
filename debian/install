@@ -3,5 +3,4 @@ mx-findshares 		usr/bin
 mx-findshares.desktop	usr/share/applications
 translations/*.qm 	usr/share/mx-findshares/locale
 mx-findshares.png	usr/share/pixmaps
-icons/*                 usr/share/mx-findshares/icons
 license.html		usr/share/doc/mx-findshares

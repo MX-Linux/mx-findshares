@@ -5,7 +5,7 @@
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
-        <location filename="../mxfindshares.cpp" line="171"/>
+        <location filename="../mxfindshares.cpp" line="177"/>
         <source>MX Find Shares</source>
         <translation>MX 共有検索</translation>
     </message>
@@ -50,111 +50,111 @@
         <translation>ヘルプ</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="158"/>
+        <location filename="../mxfindshares.ui" line="159"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="193"/>
+        <location filename="../mxfindshares.ui" line="194"/>
         <source>Start scanning for shares</source>
         <translation>共有の検索を開始</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="196"/>
-        <location filename="../mxfindshares.cpp" line="156"/>
+        <location filename="../mxfindshares.ui" line="197"/>
+        <location filename="../mxfindshares.cpp" line="159"/>
         <source>Start</source>
         <translation>開始</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="222"/>
+        <location filename="../mxfindshares.ui" line="224"/>
         <source>Quit application</source>
         <translation>アプリケーションの終了</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="225"/>
-        <location filename="../mxfindshares.cpp" line="178"/>
+        <location filename="../mxfindshares.ui" line="227"/>
+        <location filename="../mxfindshares.cpp" line="184"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="232"/>
+        <location filename="../mxfindshares.ui" line="235"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="248"/>
+        <location filename="../mxfindshares.ui" line="251"/>
         <source>About this application</source>
         <translation>このアプリケーションについて</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="251"/>
+        <location filename="../mxfindshares.ui" line="254"/>
         <source>About...</source>
         <translation>About...</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="258"/>
+        <location filename="../mxfindshares.ui" line="262"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="103"/>
+        <location filename="../mxfindshares.cpp" line="106"/>
         <source>Finished searching for shares.</source>
         <translation>共有の検索が完了しました</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="105"/>
+        <location filename="../mxfindshares.cpp" line="108"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="106"/>
+        <location filename="../mxfindshares.cpp" line="109"/>
         <source>Process finished. Errors have occurred.</source>
         <translation>処理が完了しました。エラーが発生しています。</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="110"/>
+        <location filename="../mxfindshares.cpp" line="113"/>
         <source>&lt; Back</source>
         <translation>&lt; 戻る</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="170"/>
+        <location filename="../mxfindshares.cpp" line="176"/>
         <source>About MX Find Shares</source>
         <translation>MX 共有検索について</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="171"/>
+        <location filename="../mxfindshares.cpp" line="177"/>
         <source>Version: </source>
         <translation>Version: </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="173"/>
+        <location filename="../mxfindshares.cpp" line="179"/>
         <source>Simple package for finding network shares for MX Linux</source>
         <translation>MX Linux のネットワーク共有を検索するシンプルパッケージ</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="174"/>
+        <location filename="../mxfindshares.cpp" line="180"/>
         <source>This program is composed of two packages:</source>
         <translation>このプログラムは2つのパッケージで構成されます:</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="176"/>
+        <location filename="../mxfindshares.cpp" line="182"/>
         <source>Copyright (c) MX Linux
 </source>
         <translation>Copyright (c) MX Linux
 </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="177"/>
+        <location filename="../mxfindshares.cpp" line="183"/>
         <source>License</source>
         <translation>ライセンス</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="196"/>
+        <location filename="../mxfindshares.cpp" line="203"/>
         <source>Save File</source>
         <translation>ファイルを保存</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="197"/>
+        <location filename="../mxfindshares.cpp" line="204"/>
         <source>network_shares.txt</source>
         <translation>network_shares.txt</translation>
     </message>

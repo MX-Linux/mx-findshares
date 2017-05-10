@@ -21,7 +21,7 @@
    <item>
     <widget class="QStackedWidget" name="stackedWidget">
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="selectionPage">
       <layout class="QGridLayout" name="gridLayout_2">
@@ -151,8 +151,9 @@
         <string>Help</string>
        </property>
        <property name="icon">
-        <iconset>
-         <normaloff>../../../../../../../../usr/share/mx-findshares/icons/gnome-help.png</normaloff>../../../../../../../../usr/share/mx-findshares/icons/gnome-help.png</iconset>
+        <iconset theme="help-contents">
+         <normaloff/>
+        </iconset>
        </property>
        <property name="shortcut">
         <string>Alt+H</string>
@@ -174,7 +175,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../../../../../../../../usr/share/mx-findshares/icons/mxfcelogo.png</pixmap>
+        <pixmap resource="images.qrc">:/icons/logo.png</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -196,8 +197,9 @@
         <string>Start</string>
        </property>
        <property name="icon">
-        <iconset>
-         <normaloff>../../../../../../../../usr/share/mx-findshares/icons/dialog-ok.png</normaloff>../../../../../../../../usr/share/mx-findshares/icons/dialog-ok.png</iconset>
+        <iconset theme="dialog-ok">
+         <normaloff/>
+        </iconset>
        </property>
        <property name="shortcut">
         <string/>
@@ -225,8 +227,9 @@
         <string>Cancel</string>
        </property>
        <property name="icon">
-        <iconset>
-         <normaloff>../../../../../../../../usr/share/mx-findshares/icons/gtk-cancel.png</normaloff>../../../../../../../../usr/share/mx-findshares/icons/gtk-cancel.png</iconset>
+        <iconset theme="window-close">
+         <normaloff/>
+        </iconset>
        </property>
        <property name="shortcut">
         <string>Alt+N</string>
@@ -251,8 +254,9 @@
         <string>About...</string>
        </property>
        <property name="icon">
-        <iconset>
-         <normaloff>../../../../../../../../usr/share/mx-findshares/icons/accessories-text-editor.png</normaloff>../../../../../../../../usr/share/mx-findshares/icons/accessories-text-editor.png</iconset>
+        <iconset theme="help-about">
+         <normaloff/>
+        </iconset>
        </property>
        <property name="shortcut">
         <string>Alt+B</string>
@@ -292,7 +296,9 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonCancel</sender>

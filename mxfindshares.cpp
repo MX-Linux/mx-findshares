@@ -53,6 +53,9 @@ void mxfindshares::setup() {
     ui->buttonStart->setEnabled(true);
     ui->radioAll->setChecked(true);
     ui->buttonSave->setEnabled(false);
+    if (ui->buttonStart->icon().isNull()) {
+        ui->buttonStart->setIcon(QIcon(":/icons/dialog-ok.svg"));
+    }
 }
 
 // Util function
@@ -154,7 +157,10 @@ void mxfindshares::on_buttonStart_clicked() {
         ui->stackedWidget->setCurrentIndex(0);
         // restore Start button
         ui->buttonStart->setText(tr("Start"));
-        ui->buttonStart->setIcon(QIcon("/usr/share/mx-findshares/icons/dialog-ok.png"));
+        ui->buttonStart->setIcon(QIcon::fromTheme("dialog-ok"));
+        if (ui->buttonStart->icon().isNull()) {
+            ui->buttonStart->setIcon(QIcon(":/icons/dialog-ok.svg"));
+        }
         ui->buttonSave->setEnabled(false);
         ui->outputBox->clear();
     } else {

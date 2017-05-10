@@ -58,4 +58,7 @@ TRANSLATIONS += translations/mx-findshares_ca.ts \
                 translations/mx-findshares_sv.ts \
                 translations/mx-findshares_tr.ts
 
+RESOURCES += \
+    images.qrc
+
 

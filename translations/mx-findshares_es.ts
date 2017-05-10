@@ -5,7 +5,7 @@
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
-        <location filename="../mxfindshares.cpp" line="171"/>
+        <location filename="../mxfindshares.cpp" line="177"/>
         <source>MX Find Shares</source>
         <translation>MX Recursos Compartidos</translation>
     </message>
@@ -50,111 +50,111 @@
         <translation>Ayuda</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="158"/>
+        <location filename="../mxfindshares.ui" line="159"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="193"/>
+        <location filename="../mxfindshares.ui" line="194"/>
         <source>Start scanning for shares</source>
         <translation>Empezar a buscar recursos compartidos</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="196"/>
-        <location filename="../mxfindshares.cpp" line="156"/>
+        <location filename="../mxfindshares.ui" line="197"/>
+        <location filename="../mxfindshares.cpp" line="159"/>
         <source>Start</source>
         <translation>Inicio</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="222"/>
+        <location filename="../mxfindshares.ui" line="224"/>
         <source>Quit application</source>
         <translation>Terminar aplicación</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="225"/>
-        <location filename="../mxfindshares.cpp" line="178"/>
+        <location filename="../mxfindshares.ui" line="227"/>
+        <location filename="../mxfindshares.cpp" line="184"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="232"/>
+        <location filename="../mxfindshares.ui" line="235"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="248"/>
+        <location filename="../mxfindshares.ui" line="251"/>
         <source>About this application</source>
         <translation>Acerca de esta aplicación</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="251"/>
+        <location filename="../mxfindshares.ui" line="254"/>
         <source>About...</source>
         <translation>Acerca de...</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.ui" line="258"/>
+        <location filename="../mxfindshares.ui" line="262"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="103"/>
+        <location filename="../mxfindshares.cpp" line="106"/>
         <source>Finished searching for shares.</source>
         <translation>Se completó la búsqueda de recursos compartidos</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="105"/>
+        <location filename="../mxfindshares.cpp" line="108"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="106"/>
+        <location filename="../mxfindshares.cpp" line="109"/>
         <source>Process finished. Errors have occurred.</source>
         <translation>Proceso finalizado.  Ocurrieron errores.</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="110"/>
+        <location filename="../mxfindshares.cpp" line="113"/>
         <source>&lt; Back</source>
         <translation>&lt; Anterior</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="170"/>
+        <location filename="../mxfindshares.cpp" line="176"/>
         <source>About MX Find Shares</source>
         <translation>Acerca de MX Búsqueda de Recursos Compartidos</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="171"/>
+        <location filename="../mxfindshares.cpp" line="177"/>
         <source>Version: </source>
         <translation>Versión:</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="173"/>
+        <location filename="../mxfindshares.cpp" line="179"/>
         <source>Simple package for finding network shares for MX Linux</source>
         <translation>Paquete simple de MX Linux para encontrar recursos compartidos en redes de trabajo</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="174"/>
+        <location filename="../mxfindshares.cpp" line="180"/>
         <source>This program is composed of two packages:</source>
         <translation>Este programa se compone de dos paquetes:</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="176"/>
+        <location filename="../mxfindshares.cpp" line="182"/>
         <source>Copyright (c) MX Linux
 </source>
         <translation>Copyright (c) MX Linux
 </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="177"/>
+        <location filename="../mxfindshares.cpp" line="183"/>
         <source>License</source>
         <translation>Licencia</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="196"/>
+        <location filename="../mxfindshares.cpp" line="203"/>
         <source>Save File</source>
         <translation>Guardar Archivo</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="197"/>
+        <location filename="../mxfindshares.cpp" line="204"/>
         <source>network_shares.txt</source>
         <translation>network_shares.txt</translation>
     </message>
