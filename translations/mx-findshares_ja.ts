@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.1">
 <context>
     <name>mxfindshares</name>
     <message>
@@ -32,7 +30,7 @@
     <message>
         <location filename="../mxfindshares.ui" line="61"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このプログラムは利用可能なネットワーク共有を一覧します。&amp;quot;スタート&amp;quot; を押すとプログラムはネットワークグループ・ローカル・リモート内のコンピュータおよび共有を一覧表示します。&lt;/p&gt;&lt;p&gt;利用できるオプションから一つを選択し、&amp;quot;スタート&amp;quot; を押して下さい。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このプログラムは利用可能なネットワーク共有を一覧します。&amp;amp;quot;スタート&amp;amp;quot; を押すとプログラムはネットワークグループ・ローカル・リモート内のコンピュータおよび共有を一覧表示します。&lt;/p&gt;&lt;p&gt;利用できるオプションから一つを選択し、&amp;amp;quot;スタート&amp;amp;quot; を押して下さい。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="111"/>
