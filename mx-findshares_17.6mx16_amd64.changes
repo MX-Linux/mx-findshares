@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 02 Jun 2017 19:08:51 -0400
+Source: mx-findshares
+Binary: mx-findshares
+Architecture: source amd64
+Version: 17.6mx16
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-findshares - MX wrapper for findshares program
+Changes:
+ mx-findshares (17.6mx16) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ 300dd43d9821a698189330f60115323846f25c51 1175 mx-findshares_17.6mx16.dsc
+ e8fa1255ac0042d0e2e9746932a0f3501496441f 40700 mx-findshares_17.6mx16.tar.xz
+ fd0d55b604389f2d4d3f5daee1cc146b8d603a17 44916 mx-findshares_17.6mx16_amd64.deb
+Checksums-Sha256:
+ b6505f3065cc0afabcf0de3d4e628cc04e0642b84a10c7d0ca46479a6a6a7010 1175 mx-findshares_17.6mx16.dsc
+ 333a19d9a6048121356734a28dac182ec1529b8616c4a0ab7011a62943e1d33c 40700 mx-findshares_17.6mx16.tar.xz
+ ee95e56855bb5efacb99817ae3c0a2ffd17ad37ccce62ff08b198f9f8be59c02 44916 mx-findshares_17.6mx16_amd64.deb
+Files:
+ ce14675fe7281b5eb1ec212be25c911a 1175 admin optional mx-findshares_17.6mx16.dsc
+ d4d7b786f3a564d369ae4570339a1be7 40700 admin optional mx-findshares_17.6mx16.tar.xz
+ 340348ec5d91db77158a8ffd345828c9 44916 admin optional mx-findshares_17.6mx16_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJZMfAuAAoJEHCTjHgGee6YSQcH/195qmjeHVg2vPKxon7K63Vj
+6GRct0YficUEHNzwxFTH3v5RtL2K7yj0vU5HhE4xsnu7mFOHpbRMz714G6eYpWe7
+7F/gftNooOHr++V3T8DAUihFv37rk0EolV4OKjDo90c4aWeeLtl8aV3W0tI9C8bW
+PGXtDrJbywflGgWHMgENp1HJia1fPv3nWB80wSiCEXIQY+LzM2QZbnYnQitRZSqJ
+eO9MxNHVU9TajGHT0ak/3dwf9N/EsmHU7WwVSb/u3MyyL6mS8Lktsi/sIkzs6aDS
+m9V9Vidpx12BGpIOi9sXv/J9xUM0rSYqG8cPVlj7IOg7nFlrOVlXGWf4DnUkqrk=
+=DK5N
+-----END PGP SIGNATURE-----
