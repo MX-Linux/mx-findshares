@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="lt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.1">
 <context>
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
         <location filename="../mxfindshares.cpp" line="177"/>
         <source>MX Find Shares</source>
-        <translation>MX Rasti viešinius</translation>
+        <translation>MX rasti viešinius</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="31"/>
@@ -119,7 +117,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="176"/>
         <source>About MX Find Shares</source>
-        <translation>About MX Rasti viešinius</translation>
+        <translation>About MX rasti viešinius</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="177"/>
