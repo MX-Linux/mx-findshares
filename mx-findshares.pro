@@ -41,23 +41,28 @@ HEADERS  += mxfindshares.h
 
 FORMS    += mxfindshares.ui
 
-TRANSLATIONS += translations/mx-findshares_ca.ts \
-                translations/mx-findshares_cs.ts \
-                translations/mx-findshares_de.ts \
-                translations/mx-findshares_el.ts \
-                translations/mx-findshares_es.ts \
-                translations/mx-findshares_fr.ts \
-                translations/mx-findshares_it.ts \
-                translations/mx-findshares_ja.ts \
-                translations/mx-findshares_lt.ts \
-                translations/mx-findshares_nl.ts \
-                translations/mx-findshares_pl.ts \
-                translations/mx-findshares_pt.ts \
-                translations/mx-findshares_ro.ts \
-                translations/mx-findshares_ru.ts \
-                translations/mx-findshares_sk.ts \
-                translations/mx-findshares_sv.ts \
-                translations/mx-findshares_tr.ts
+TRANSLATIONS += translations/mx-bootrepair_am.ts \
+                translations/mx-bootrepair_ca.ts \
+                translations/mx-bootrepair_cs.ts \
+                translations/mx-bootrepair_de.ts \
+                translations/mx-bootrepair_el.ts \
+                translations/mx-bootrepair_es.ts \
+                translations/mx-bootrepair_fr.ts \
+                translations/mx-bootrepair_hu.ts \
+                translations/mx-bootrepair_it.ts \
+                translations/mx-bootrepair_ja.ts \
+                translations/mx-bootrepair_kk.ts \
+                translations/mx-bootrepair_lt.ts \
+                translations/mx-bootrepair_nl.ts \
+                translations/mx-bootrepair_pl.ts \
+                translations/mx-bootrepair_pt.ts \
+                translations/mx-bootrepair_pt_BR.ts \
+                translations/mx-bootrepair_ro.ts \
+                translations/mx-bootrepair_ru.ts \
+                translations/mx-bootrepair_sk.ts \
+                translations/mx-bootrepair_sv.ts \
+                translations/mx-bootrepair_tr.ts \
+                translations/mx-bootrepair_uk.ts
 
 RESOURCES += \
     images.qrc
