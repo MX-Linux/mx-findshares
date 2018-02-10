@@ -13,20 +13,20 @@ Build-Depends: qt5-qmake, qt5-default, qttools5-dev-tools, debhelper (>= 7.0.50~
 Package-List:
  mx-findshares deb admin optional arch=any
 Checksums-Sha1:
- 38c6d68a091eee06b59ee4841afdca81d12433d9 42712 mx-findshares_18.2mx16.tar.xz
+ 94051b282fa29b5ef7b52600821ac396a1fd6685 41760 mx-findshares_18.2mx16.tar.xz
 Checksums-Sha256:
- ba0252fcfc39727c428721a92bd4656ff5d54af659198ad362c18cce67cdfbde 42712 mx-findshares_18.2mx16.tar.xz
+ d028c8eb276c4e4e6eeeaab88129916733eae9f67160c21cdf4b8533b0cdf415 41760 mx-findshares_18.2mx16.tar.xz
 Files:
- 54db998000c6ea50f0948e5a983e7461 42712 mx-findshares_18.2mx16.tar.xz
+ f9d06d9a95ff01b10e51c36e382ff2b4 41760 mx-findshares_18.2mx16.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJafpVxAAoJEHCTjHgGee6YnL4H/iCzqlAV6mIZYT0y8yOCYSbz
-ZAQNCx1Csybm6IYktAssD9VmF8IE0SI8Nw9I3LB9u+wjsSKWdHpQoVDFoag36JVn
-WAlpLP2No3hhX0HlYpiJias5PnXPV8z2kEKPcXh7zeIzsA3ZCwPj3E94LEBR0Tll
-dm5qSniDBpecybbsm/+xXSc24VrwLCD7IDgXP22TtwSRR9NOD5gpeclsJOW6ATOg
-j93uaYb2hROI+f5ApG0ahSbhxXRQ3duN6tSr7idx8d+fYq1sgv36caGzTgL2xwWD
-YhIJaBXPqUp1SghYHHGPeUjx/CU4LLli7gU6eXrfAoLzZbShZ6T7fxQNFNvFymU=
-=VE0B
+iQEcBAEBAgAGBQJafpeqAAoJEHCTjHgGee6Y18cH/jVDPHLHG/vfFPucKyNsh+CT
+fuCx8y7T48XhjXmDiA68ORLqKlJuVNFfSlULPPBaSMTu7dAxBzy264YoiS+RUIdo
+U0nefvtyVirAkRxlVyA/7cKasuaDVrJhfCipGaQVR1WpX+C2E7AjV9RVtVUPbb0r
+N8X/zMfikg7YKEje5sdFkD/pilyqtY/T/lik4ZAotg66qWP6g/ltD0DZD6gZsEUA
+kMvZ/LxWpmIMbG6WvAEE6gU1iMJp4+r1UY18Mmo/vcZKDGWe4FSBSUzC/FPJO68s
+r/wKsPlbIq9ttG9y2ds/6VnV1Lj8sFo3ahDBcSRx7KKyiN0iEkzAM3LhD2MIUyE=
+=+eHl
 -----END PGP SIGNATURE-----

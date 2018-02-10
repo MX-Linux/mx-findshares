@@ -18,20 +18,20 @@ Changes:
  .
    * new translations
 Checksums-Sha1:
- 279498a390cdf81fd19cfad83843d06b85d18c96 35936 mx-findshares_18.2mx16_i386.deb
+ 2b1530c803652ca9510885455d99ca32ec6b8085 46118 mx-findshares_18.2mx16_i386.deb
 Checksums-Sha256:
- 76be53026e5b145a172f906c7aac1460c90633d04ce94b9372ec267a961182eb 35936 mx-findshares_18.2mx16_i386.deb
+ b3798067c541e63eaabbf1269e77d7a1ecbbd1acc23d32939ca8210d068678b7 46118 mx-findshares_18.2mx16_i386.deb
 Files:
- 36d18b4c71a981f588c168f802d932fe 35936 admin optional mx-findshares_18.2mx16_i386.deb
+ 160a0e9210ea74f37cedf3bdd525a9ac 46118 admin optional mx-findshares_18.2mx16_i386.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJafpWqAAoJEHCTjHgGee6Y0rgH/0p4q+9AHwpoiu+918DKZWBZ
-MBhvwaLDmzr82WIztDLmoR/Z7vI+f1AKcjCjGTkaBIGCKf6zROXEfFKo/Uk22l8g
-r1d+C2Liu3nUwzH4jlIS8NDKqj/1D2lVb0d3bIWWgesmJmLseA8RUw5G6rpirjNI
-TNNLbUgaOU4EhV+eTEzchb6lnHznxP5yEa/YwuxO+tuBU3EKIPj6tsCP/KdEUAny
-DyFD4DIdTcveinaY+R2cq6yumYqNvd26TTN9glaFdSNw6vxs5lm5TM7wrOf0EEw/
-TQWAVbfG9gWZJHrsHX5bzl62axSSUJ7TVPItQqe7p3kctWotmPzbSMvPUm0OdX8=
-=vUgv
+iQEcBAEBAgAGBQJafpfMAAoJEHCTjHgGee6YetwH/05kfpEKPlIPWYFRZwP1xOpY
+TWC1zPD5uYYA97+XsyfVmxSyeuLwpnOQX/voaGha4Cv1PNbiiC4aD77pod2O54MJ
+tyTJW5AwxEsOEMALpwy01bNkzdaNQKsNPffKQG6imbO+XumjTymFiesZw3cNUbWO
+PPNnlwjSQWMRlCRspA2uSnbRnxvFodM60q3hYREwAy2p/U2JfYoHcvo63JT0+x6v
+eFFKNuh2AohIcuf/mLKuEMhc1BQWPqxwZ7L6uXLCZbobgWAml/wriS73TyRJWCC0
+9h3V79OpqGoDe2uP8c3xEQVbBvdFiBffJPhgGlbr2Opgxn22bgwlb8UhOoHYQfA=
+=vB60
 -----END PGP SIGNATURE-----

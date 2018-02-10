@@ -18,26 +18,26 @@ Changes:
  .
    * new translations
 Checksums-Sha1:
- 0bc20276f1ce5ee73565b4a0514b2ef778c45dc7 1175 mx-findshares_18.2mx16.dsc
- 38c6d68a091eee06b59ee4841afdca81d12433d9 42712 mx-findshares_18.2mx16.tar.xz
- 7a023c5f8cc73263ac21346b154265012f798b98 35856 mx-findshares_18.2mx16_amd64.deb
+ 74d727a1baeed139041cf3b84c56447af944c23e 1175 mx-findshares_18.2mx16.dsc
+ 94051b282fa29b5ef7b52600821ac396a1fd6685 41760 mx-findshares_18.2mx16.tar.xz
+ 8bdf2a7b8ad38fccec13bdfc5a77aaa673dc9277 46156 mx-findshares_18.2mx16_amd64.deb
 Checksums-Sha256:
- 91e29d9ad318d494c98a6f83e407508144ea11aa04aa43ad8d26368b4c59f91d 1175 mx-findshares_18.2mx16.dsc
- ba0252fcfc39727c428721a92bd4656ff5d54af659198ad362c18cce67cdfbde 42712 mx-findshares_18.2mx16.tar.xz
- 391ffc007e6dd9a765b367bf667d59650cca87d37f8685ac9b5eb3af1fb833dd 35856 mx-findshares_18.2mx16_amd64.deb
+ d526565a70c1e6a2c1a310c23dcfeb1c0c6294a51c3fce6a05d6e90ed4bb5111 1175 mx-findshares_18.2mx16.dsc
+ d028c8eb276c4e4e6eeeaab88129916733eae9f67160c21cdf4b8533b0cdf415 41760 mx-findshares_18.2mx16.tar.xz
+ e5712a7bfb9162805e43b51c30f272f4086d2502ef984ec84583258b82cca86a 46156 mx-findshares_18.2mx16_amd64.deb
 Files:
- 5d9650ce15d32ec8577749d58739a5be 1175 admin optional mx-findshares_18.2mx16.dsc
- 54db998000c6ea50f0948e5a983e7461 42712 admin optional mx-findshares_18.2mx16.tar.xz
- 5332e2e508faf9443224c5698975b0f2 35856 admin optional mx-findshares_18.2mx16_amd64.deb
+ c8b2d1c0e1a048835ee0698e93a2eace 1175 admin optional mx-findshares_18.2mx16.dsc
+ f9d06d9a95ff01b10e51c36e382ff2b4 41760 admin optional mx-findshares_18.2mx16.tar.xz
+ b32c6b333a5d70730dbe06fed2f3a4ab 46156 admin optional mx-findshares_18.2mx16_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJafpV1AAoJEHCTjHgGee6Y+NIIAJHEQxgsdvo1f3DucZD8WDbh
-NoWF8srhzhnwbsk4CuVhMAG0KjlwkPe0SN9yTIAYjPL52ltKiUcW7c8GByf8EIrT
-0wAsKfkczdp0QwbRRBQWbrHgHsTceLpvpfNlaoPZux1dMCk1ZOshvPBi488NNfSb
-l4pcukJJJpNVPqV/aJvVsiWAkACCOt9/EIAXZQ3qd+jAbxi70DNvzFtY7hehtnLw
-0aDUvUaI8T1qnF6Ld+rHXTu61SsFZWDK33tvFqKI88NpZKq2+htytGC9v/l6x52g
-1yz2TZvxfV3nkKzFRynaht7wKxxlMrmuLzkb+fPsIHG08K1J6a2VDcSEFf1smZI=
-=pQvm
+iQEcBAEBAgAGBQJafpeuAAoJEHCTjHgGee6YQSkH/1zRtUY+splkZhDsoL/Xvd3N
+u82oPKe3LQstyl7CvqMdVUHqXQfHjMl1HcyHvSLnJwzDMSos7jtG7AW1+OdTytIl
+klYgvSyq5BbLsjZg1GwnLGtW+4AP2Wz06FB1dmDCDd2C8FORq5SR1jdhsxuodCAj
+bf9lcR5iu+iNuej5uV0j/8nhA4nukovHyVzr97hbq5+s+vUBE1pAYBEoDRMJitef
+0NZsrRbxbXE2WD7Tv0ndgNEh47c0LZV4ufx9+1KQsPvM2JE8nCYRYUq+epgdHf8R
+u6UIAplQ+cXktojBTNi9qNcmlSZ3PElJK9kejaGQImt2DtfG7CwaChZL6eQxbEg=
+=UDMP
 -----END PGP SIGNATURE-----
