@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=MX Find Shares
+Name[am]=MX ማካፈያ መፈለጊያ
 Name[ca]=MX Find Shares
 Name[cs]=MX Vyhledávač sdílení
 Name[de]=MX Find Shares
@@ -18,6 +19,7 @@ Name[ru]=MX Поиск общих ресурсов
 Name[sk]=MX Vyhľadávač zdieľaní
 Name[sv]=MX Find Shares
 Comment=Find network shares
+Comment[am]=የ ኔትዎርክ ማካፈያ መፈለጊያ
 Comment[ca]=Troba recursos compartits de xarxa
 Comment[cs]=Hledat sdílení v síti
 Comment[de]=Netzwerkfreigaben finden
