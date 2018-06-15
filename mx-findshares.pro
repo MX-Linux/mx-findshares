@@ -47,7 +47,10 @@ TRANSLATIONS += translations/mx-findshares_am.ts \
                 translations/mx-findshares_de.ts \
                 translations/mx-findshares_el.ts \
                 translations/mx-findshares_es.ts \
+                translations/mx-findshares_fi.ts \
                 translations/mx-findshares_fr.ts \
+                translations/mx-findshares_hi.ts \
+                translations/mx-findshares_hr.ts \
                 translations/mx-findshares_hu.ts \
                 translations/mx-findshares_it.ts \
                 translations/mx-findshares_ja.ts \

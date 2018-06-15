@@ -5,37 +5,37 @@
         <location filename="../mxfindshares.ui" line="14"/>
         <location filename="../mxfindshares.cpp" line="177"/>
         <source>MX Find Shares</source>
-        <translation type="unfinished"/>
+        <translation>MX 尋找分享</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="31"/>
         <source>Options:</source>
-        <translation type="unfinished"/>
+        <translation>選項：</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="37"/>
         <source>Show all shares</source>
-        <translation type="unfinished"/>
+        <translation>顯示所有分享出來的資源</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="44"/>
         <source>Show only Windows/Samba shares</source>
-        <translation type="unfinished"/>
+        <translation>僅顯示 Windows/Samba 分享出來的資源</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="51"/>
         <source>Show only NFS shares</source>
-        <translation type="unfinished"/>
+        <translation>僅顯示 NFS 分享出來的資源</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="61"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;本程式可列出網路上所有分享出來的資源。按下「開始」，本程式便會顯示一清單，列舉網路上各機器及其分享資源，按網路群組排序，本地群組及遠端群組都會列出。&lt;/p&gt;&lt;p&gt;請選用任一選項，然後按「開始」按鈕。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="111"/>
         <source>Save results</source>
-        <translation type="unfinished"/>
+        <translation>儲存結果</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="148"/>
@@ -55,13 +55,13 @@
     <message>
         <location filename="../mxfindshares.ui" line="194"/>
         <source>Start scanning for shares</source>
-        <translation type="unfinished"/>
+        <translation>開始掃描分享資源</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="197"/>
         <location filename="../mxfindshares.cpp" line="159"/>
         <source>Start</source>
-        <translation type="unfinished"/>
+        <translation>開始</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="224"/>
@@ -97,7 +97,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="106"/>
         <source>Finished searching for shares.</source>
-        <translation type="unfinished"/>
+        <translation>已經找好了分享資源</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="108"/>
@@ -107,17 +107,17 @@
     <message>
         <location filename="../mxfindshares.cpp" line="109"/>
         <source>Process finished. Errors have occurred.</source>
-        <translation type="unfinished"/>
+        <translation>程序結束。過程中發生錯誤。</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="113"/>
         <source>&lt; Back</source>
-        <translation type="unfinished"/>
+        <translation>&lt; 返回</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="176"/>
         <source>About MX Find Shares</source>
-        <translation type="unfinished"/>
+        <translation>關於 MX 尋找分享</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="177"/>
@@ -127,18 +127,19 @@
     <message>
         <location filename="../mxfindshares.cpp" line="179"/>
         <source>Simple package for finding network shares for MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>MX Linux 的簡單軟體套件，可尋找網路上分享出來的檔案</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="180"/>
         <source>This program is composed of two packages:</source>
-        <translation type="unfinished"/>
+        <translation>本程式包含兩個套件：</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="182"/>
         <source>Copyright (c) MX Linux
 </source>
-        <translation type="unfinished"/>
+        <translation>版權所有 (c) MX Linux
+</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="183"/>
@@ -148,12 +149,12 @@
     <message>
         <location filename="../mxfindshares.cpp" line="203"/>
         <source>Save File</source>
-        <translation type="unfinished"/>
+        <translation>儲存檔案</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="204"/>
         <source>network_shares.txt</source>
-        <translation type="unfinished"/>
+        <translation>network_shares.txt</translation>
     </message>
 </context>
 </TS>
