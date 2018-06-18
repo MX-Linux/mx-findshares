@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="am" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="am">
 <context>
     <name>mxfindshares</name>
     <message>
@@ -20,17 +22,17 @@
     <message>
         <location filename="../mxfindshares.ui" line="44"/>
         <source>Show only Windows/Samba shares</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="51"/>
         <source>Show only NFS shares</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="61"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="111"/>
@@ -97,7 +99,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="106"/>
         <source>Finished searching for shares.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="108"/>
@@ -107,7 +109,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="109"/>
         <source>Process finished. Errors have occurred.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="113"/>
@@ -117,7 +119,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="176"/>
         <source>About MX Find Shares</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="177"/>
@@ -127,7 +129,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="179"/>
         <source>Simple package for finding network shares for MX Linux</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="180"/>

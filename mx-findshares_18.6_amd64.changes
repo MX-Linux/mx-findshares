@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 18 Jun 2018 14:23:23 -0400
+Source: mx-findshares
+Binary: mx-findshares
+Architecture: source amd64
+Version: 18.6
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-findshares - MX wrapper for findshares program
+Changes:
+ mx-findshares (18.6) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 768bf92f7c92aaadbfd597c5487d006ccb4350b0 1200 mx-findshares_18.6.dsc
+ a841d43393bbc14500200e92490bd30cef723673 42884 mx-findshares_18.6.tar.xz
+ 8650c4fd212294f8bb175128f665f033daa45db3 11311 mx-findshares_18.6_amd64.buildinfo
+ 3a1c3196749caf7060ae8df1a7418315c1c5e03e 47388 mx-findshares_18.6_amd64.deb
+Checksums-Sha256:
+ 5eeefa05cdd0674b2b05da6031cb5b93ab5a5e83df530675247a92dd7053170f 1200 mx-findshares_18.6.dsc
+ 4ce2f613752d5a3a8b8d1b96cace6458e00d1445c77a2da40dc2769b3894daa2 42884 mx-findshares_18.6.tar.xz
+ f481bdebd5a52e7024cb664fffdabbec1bdf46f519f53085a4d62123ae21b0a8 11311 mx-findshares_18.6_amd64.buildinfo
+ 8c389d12b6b7411e8e303182a134c7a6e0d6057b95a63ddcae2232fddd6b1735 47388 mx-findshares_18.6_amd64.deb
+Files:
+ d6ffb34c701333ea8a0b955337add9f9 1200 admin optional mx-findshares_18.6.dsc
+ a043d11e0113747cf0b50c4d06a3c0c2 42884 admin optional mx-findshares_18.6.tar.xz
+ 6e8d20dadd93901d48c8e35661133a25 11311 admin optional mx-findshares_18.6_amd64.buildinfo
+ a1336c4ffd4e22fd71c3037efbcf56fe 47388 admin optional mx-findshares_18.6_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlsn/esTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumBmpB/4qbzclFfuQSAvMds5N3pcDJyNdogBO
+kAfqRLzUr3PzSqGdGDRFnkavxJWtpK7YLTrN99ddcheXx/zdz74/llWhjchiVsoz
+02tkv4Z2mgDGx9apOAb6uy4RzzSi726GInKrsEtDKGW4wbvEgNOU7zeuv66uuF7o
+eYOKw8p1OVBggn+bgK2SeaRVtN6hRnd87CWVlSA1+1IW7hRFjjwWexdoHvyHQ0kW
+DeNL9ssEXqFF+Vb48YzZSn3pE+7/nBhtpvAtJLd1k47VL4bKjVycz8UsB8psdkws
+Lxv9WfVrpwj17tXD19OCRnAryTi/wA0fT+JJj4R8fWuPRlTDNr37YThU
+=qcHc
+-----END PGP SIGNATURE-----
