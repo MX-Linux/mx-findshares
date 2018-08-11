@@ -1,6 +1,7 @@
 findshares-src/findshares	usr/bin
-mx-findshares 		usr/bin
+mx-findshares		usr/bin
 mx-findshares.desktop	usr/share/applications
-translations/*.qm 	usr/share/mx-findshares/locale
+translations/*.qm	usr/share/mx-findshares/locale
 mx-findshares.png	usr/share/pixmaps
+mx-findshares.png	usr/share/icons/hicolor/48x48/apps
 license.html		usr/share/doc/mx-findshares

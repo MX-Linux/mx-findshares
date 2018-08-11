@@ -134,7 +134,7 @@ void mxfindshares::onStdoutAvailable() {
     QByteArray output = proc->readAllStandardOutput();
     QString out = ui->outputBox->toPlainText() + QString::fromUtf8(output);
     ui->outputBox->setPlainText(out);
-    QScrollBar *sb = ui->outputBox->verticalScrollBar();
+    //QScrollBar *sb = ui->outputBox->verticalScrollBar();
     //sb->setValue(sb->maximum());
 }
 
