@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 14 Oct 2018 18:45:47 -0400
+Source: mx-findshares
+Binary: mx-findshares
+Architecture: source amd64
+Version: 18.10
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-findshares - MX wrapper for findshares program
+Changes:
+ mx-findshares (18.10) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ 22622a9a2aed134b2d0dc473d53be0eaa21c43eb 1204 mx-findshares_18.10.dsc
+ 5d4d67c8de29fa673d84499906704b5366ecabf7 43140 mx-findshares_18.10.tar.xz
+ 96687a56830a161a037c08d99e244946c1559cc0 47578 mx-findshares_18.10_amd64.deb
+Checksums-Sha256:
+ cc7767d44685f1ae6218a2e4be16835a685184b6ac20f6bb03456b9efa8a7e0e 1204 mx-findshares_18.10.dsc
+ 3a4647bad65c71118b19a376206993ffa40a2e74bf9cb93ca7948537e02b87be 43140 mx-findshares_18.10.tar.xz
+ 0d1b12a6dcae8bb4dcf295eb18d1aa54cf232f1d5a9c45af60b9c2dfc4dd2f24 47578 mx-findshares_18.10_amd64.deb
+Files:
+ 1d8e4868c0270b8cf1516b43b05e1cdf 1204 admin optional mx-findshares_18.10.dsc
+ e5008d2c46fd1dc7b16c428e58e5a2c5 43140 admin optional mx-findshares_18.10.tar.xz
+ d9e55d93864e7216f4443fd95d1a867e 47578 admin optional mx-findshares_18.10_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlvDyiATHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumNQECACVeEFhLygw0e3wQjz0CRWxIYqzYk1E
+uoYtj3tBuqf+28B87cLnNgyEwKbZfy/+HI8cbxZlmuD21kdDEAeHgMdf4Jat7P23
+YfFr/8xRRwqLxFQ8ImuTsAU2c9jDgQHVpixH4msThIVCZbaljiVHNZsgasc5QX1D
+Ydz/SrbA83xHsf14v36yYVk0aVWNuth8zdWh1JkhFnskGFaYvc6uc2xvetwwTT0E
+IFOC5mBEVTnPyCBieawWlxRS6pLRha2Zr3o7JKOgUX2n2r0v3uKF6RAnewy9KMcM
+L84kh372c304ImesfAH5kJS02Trem56B02Spz2LcGDGpyaWYlL+bGzhY
+=HM4q
+-----END PGP SIGNATURE-----
