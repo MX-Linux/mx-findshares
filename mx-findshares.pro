@@ -44,6 +44,7 @@ FORMS    += mxfindshares.ui
 TRANSLATIONS += translations/mx-findshares_am.ts \
                 translations/mx-findshares_ca.ts \
                 translations/mx-findshares_cs.ts \
+                translations/mx-findshares_da.ts \
                 translations/mx-findshares_de.ts \
                 translations/mx-findshares_el.ts \
                 translations/mx-findshares_es.ts \
@@ -52,6 +53,7 @@ TRANSLATIONS += translations/mx-findshares_am.ts \
                 translations/mx-findshares_hi.ts \
                 translations/mx-findshares_hr.ts \
                 translations/mx-findshares_hu.ts \
+                translations/mx-findshares_is.ts \
                 translations/mx-findshares_it.ts \
                 translations/mx-findshares_ja.ts \
                 translations/mx-findshares_kk.ts \
@@ -63,6 +65,7 @@ TRANSLATIONS += translations/mx-findshares_am.ts \
                 translations/mx-findshares_ro.ts \
                 translations/mx-findshares_ru.ts \
                 translations/mx-findshares_sk.ts \
+                translations/mx-findshares_sq.ts \
                 translations/mx-findshares_sv.ts \
                 translations/mx-findshares_tr.ts \
                 translations/mx-findshares_uk.ts \
