@@ -42,22 +42,33 @@ HEADERS  += mxfindshares.h
 FORMS    += mxfindshares.ui
 
 TRANSLATIONS += translations/mx-findshares_am.ts \
+                translations/mx-findshares_ar.ts \
+                translations/mx-findshares_bg.ts \
                 translations/mx-findshares_ca.ts \
                 translations/mx-findshares_cs.ts \
                 translations/mx-findshares_da.ts \
                 translations/mx-findshares_de.ts \
                 translations/mx-findshares_el.ts \
                 translations/mx-findshares_es.ts \
+                translations/mx-findshares_et.ts \
+                translations/mx-findshares_eu.ts \
+                translations/mx-findshares_fa.ts \
                 translations/mx-findshares_fi.ts \
                 translations/mx-findshares_fr.ts \
+                translations/mx-findshares_he_IL.ts \
                 translations/mx-findshares_hi.ts \
                 translations/mx-findshares_hr.ts \
                 translations/mx-findshares_hu.ts \
+                translations/mx-findshares_id.ts \
                 translations/mx-findshares_is.ts \
                 translations/mx-findshares_it.ts \
                 translations/mx-findshares_ja.ts \
+                translations/mx-findshares_ja_JP.ts \
                 translations/mx-findshares_kk.ts \
+                translations/mx-findshares_ko.ts \
                 translations/mx-findshares_lt.ts \
+                translations/mx-findshares_mk.ts \
+                translations/mx-findshares_nb.ts \
                 translations/mx-findshares_nl.ts \
                 translations/mx-findshares_pl.ts \
                 translations/mx-findshares_pt.ts \
@@ -65,10 +76,13 @@ TRANSLATIONS += translations/mx-findshares_am.ts \
                 translations/mx-findshares_ro.ts \
                 translations/mx-findshares_ru.ts \
                 translations/mx-findshares_sk.ts \
+                translations/mx-findshares_sl.ts \
                 translations/mx-findshares_sq.ts \
+                translations/mx-findshares_sr.ts \
                 translations/mx-findshares_sv.ts \
                 translations/mx-findshares_tr.ts \
                 translations/mx-findshares_uk.ts \
+                translations/mx-findshares_zh_CN.ts \
                 translations/mx-findshares_zh_TW.ts
 
 RESOURCES += \
