@@ -1,9 +1,11 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="it">
 <context>
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
-        <location filename="../mxfindshares.cpp" line="177"/>
+        <location filename="../mxfindshares.cpp" line="176"/>
         <source>MX Find Shares</source>
         <translation>MX Risorse Condivise</translation>
     </message>
@@ -59,7 +61,7 @@
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="197"/>
-        <location filename="../mxfindshares.cpp" line="159"/>
+        <location filename="../mxfindshares.cpp" line="158"/>
         <source>Start</source>
         <translation>Avvia</translation>
     </message>
@@ -70,7 +72,7 @@
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="227"/>
-        <location filename="../mxfindshares.cpp" line="184"/>
+        <location filename="../mxfindshares.cpp" line="183"/>
         <source>Cancel</source>
         <translation>Annulla</translation>
     </message>
@@ -95,64 +97,64 @@
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="106"/>
+        <location filename="../mxfindshares.cpp" line="105"/>
         <source>Finished searching for shares.</source>
         <translation>Ricerca di risorse condivise, finita.</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="108"/>
+        <location filename="../mxfindshares.cpp" line="107"/>
         <source>Error</source>
         <translation>Errore</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="109"/>
+        <location filename="../mxfindshares.cpp" line="108"/>
         <source>Process finished. Errors have occurred.</source>
         <translation>Processo ultimato. Sono incorsi degli errori.</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="113"/>
+        <location filename="../mxfindshares.cpp" line="112"/>
         <source>&lt; Back</source>
         <translation>&lt; Indietro</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="176"/>
+        <location filename="../mxfindshares.cpp" line="175"/>
         <source>About MX Find Shares</source>
         <translation>Informazioni su MX Find Shares</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="177"/>
+        <location filename="../mxfindshares.cpp" line="176"/>
         <source>Version: </source>
         <translation>Versione:</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="179"/>
+        <location filename="../mxfindshares.cpp" line="178"/>
         <source>Simple package for finding network shares for MX Linux</source>
         <translation>Applicazione di MX Linux per trovare risorse condivise in rete, di facile uso.</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="180"/>
+        <location filename="../mxfindshares.cpp" line="179"/>
         <source>This program is composed of two packages:</source>
         <translation>Questo programma è composto da due pacchetti:</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="182"/>
+        <location filename="../mxfindshares.cpp" line="181"/>
         <source>Copyright (c) MX Linux
 </source>
         <translation>Copyright (c) MX Linux
 </translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="183"/>
+        <location filename="../mxfindshares.cpp" line="182"/>
         <source>License</source>
         <translation>Licenza</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="203"/>
+        <location filename="../mxfindshares.cpp" line="202"/>
         <source>Save File</source>
         <translation>Salva il file</translation>
     </message>
     <message>
-        <location filename="../mxfindshares.cpp" line="204"/>
+        <location filename="../mxfindshares.cpp" line="203"/>
         <source>network_shares.txt</source>
         <translation>network_shares.txt</translation>
     </message>
