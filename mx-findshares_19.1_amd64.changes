@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 23 Jan 2019 09:50:55 -0500
+Source: mx-findshares
+Binary: mx-findshares
+Architecture: source amd64
+Version: 19.1
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-findshares - MX wrapper for findshares program
+Changes:
+ mx-findshares (19.1) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ ead4c03bc69c774e143c5567e6896c789a786be7 1200 mx-findshares_19.1.dsc
+ b296eb68067633e8052e148e83648574d8b08479 44720 mx-findshares_19.1.tar.xz
+ f0a30172ea7640f6487d7a03adc1ca8f400c5a3e 6378 mx-findshares-dbgsym_19.1_amd64.deb
+ fceae33c12097f6b84355312c54557aaa5953506 11728 mx-findshares_19.1_amd64.buildinfo
+ 41fdf30a0487287a7c5392265ecebaa7f3bcb101 49534 mx-findshares_19.1_amd64.deb
+Checksums-Sha256:
+ 0e8275b9454a372d2c4297a22576899fec2ac354e455f2f5dd87a8261fdf86e2 1200 mx-findshares_19.1.dsc
+ 9e9245eeb773d13c68b28457bd2dc68d07a980a57e6fd3dd153f5b6df9d3ed22 44720 mx-findshares_19.1.tar.xz
+ bdedc71782bd5afb6f15efa3040aa6f4188d7f0bcc42b722befa81a472fd1f88 6378 mx-findshares-dbgsym_19.1_amd64.deb
+ 0fb258c34fab29704586ad832ced826b94c7ecabc04225d7d5b221c6a2227a80 11728 mx-findshares_19.1_amd64.buildinfo
+ 459216c30c5d2c9dd88d63fbb00a6c945c74c3e0f317767fd3897c27eb0edc79 49534 mx-findshares_19.1_amd64.deb
+Files:
+ 4894d68746971e672d59d987fa55d827 1200 admin optional mx-findshares_19.1.dsc
+ 570be2b77bb1a0ae69f790c548dc3ee3 44720 admin optional mx-findshares_19.1.tar.xz
+ b5b343fc40ed050c019d0955c0d44c06 6378 debug optional mx-findshares-dbgsym_19.1_amd64.deb
+ f76e21120b82f822f796364797aa7666 11728 admin optional mx-findshares_19.1_amd64.buildinfo
+ 659bb1cb7fd09b8ed918f958001320a9 49534 admin optional mx-findshares_19.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlxIf9sTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumAP8B/sH76SP4IeE1PRH/+RQuRGYt7xiyEMA
+s3LWw8YRMBS/xuqyJebpwlFN7b/hvhurSXVqW2v/tqnVfUbzRzmlh6be2SYBOHYp
+1Im+9fMVngJWKNvE5eeIVZ+02AkiC26XXcBS/8wFdeByKFyMdksOGFh+tfSUE+fr
+tJo0l2bDMkRpm8PxjHJiG8eGRHF8pKYbRH+q4Pc8utsdQ/9iE/qnHSHb+M+wyWee
+FVkL43zegaNqblv4JlSN2hBH7DXZ4L0QU9AeL2svWO5puZ9QN8xN2UzXOZqDQIym
+Xlc7qNfVQw9ErPZZKmPbG2PLKh0RMrbi2ApSoCj6HWjWX8rZBW/XZ0Ey
+=sED7
+-----END PGP SIGNATURE-----
