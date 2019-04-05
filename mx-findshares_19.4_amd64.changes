@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 05 Apr 2019 11:32:43 -0400
+Source: mx-findshares
+Binary: mx-findshares
+Architecture: source amd64
+Version: 19.4
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-findshares - MX wrapper for findshares program
+Changes:
+ mx-findshares (19.4) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ 3bb5d15929847330f3ca46d74e86562510a7c4cb 1200 mx-findshares_19.4.dsc
+ f55b351b69ca03a86c179fb279f38b44d9947bf0 44728 mx-findshares_19.4.tar.xz
+ 6848ec161903ff24d4acfbcb11155fa3db27e1db 11473 mx-findshares_19.4_amd64.buildinfo
+ cb0780121ea9f73e817478e59ef85cda346f1875 49422 mx-findshares_19.4_amd64.deb
+Checksums-Sha256:
+ 5359ede053f1680a1f4b647545c99141e902356a3a8fbcc992776322e1a5992e 1200 mx-findshares_19.4.dsc
+ 3c32765832e90a46853c40dd2850517b9d7d4969367a4124c502d86b49d3c857 44728 mx-findshares_19.4.tar.xz
+ a0b41face9a52c14d66b308f7eac084fae67e65ff9a8fdd6690fe72561324489 11473 mx-findshares_19.4_amd64.buildinfo
+ 5192eacb6c687ab148b59ed30e0d128c9ff8267dd9cc58dfc72ccdcb3675fd87 49422 mx-findshares_19.4_amd64.deb
+Files:
+ 523a339c62d7ed3808022243c950c6a4 1200 admin optional mx-findshares_19.4.dsc
+ 64982e65db756259358d49c231c3236d 44728 admin optional mx-findshares_19.4.tar.xz
+ 17c4993c4920ac7aeb5931ec096a5a62 11473 admin optional mx-findshares_19.4_amd64.buildinfo
+ 2a4ad4a82cf774f53c6117c9f1124a06 49422 admin optional mx-findshares_19.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlyndW4THGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumONAB/9cjSOIX7sJgRS1j2zib7f0PX68ef2X
+1BaEvwOOqMh+wkkzhyAV2eH+raDT4htWlbXzGmKplAN/CIA/DreSlL2P/L/TnEQw
+XzqB+z+Rrw7ZbUvGDHiFpdRsrr+fcjEx1MK8hYtsgWveUxgGI217mnc49OPfP2DD
+Z+mkStaUfmZUsOQu63DhJkFZmuaiZb3JLHkBEuuf77RgHunb96yf/Kwz455LJeoV
+9MGDBsvUaykU+AyVv7PHJLQfJ6AH4UezOn5++a4M+Ey56hZ1MqNUH5PSuaE5ma/o
+LUioEL1gQxXhweTBjhMNkUTR8HixFAZuM+NEM9lcxU00gfxulwU6B5nL
+=ujrw
+-----END PGP SIGNATURE-----

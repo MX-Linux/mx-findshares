@@ -309,7 +309,7 @@ void CreateMountlistNFS()
 			i=FindnChar(linebuffer + offset, ' ', 1); // End of mount point
 			Copy(mountpoint, linebuffer + offset, i);
 			mountpoint[i]=0;
-			for(subnet=1; subnet < 255; subnet++)
+			for (subnet=1; subnet < 255; subnet++)
 			{
 				if(NFSshares[subnet] != NULL)
 					if(CompareStrings(servername, NFSshares[subnet]->ipaddress_string, 0) == 0)
@@ -364,7 +364,7 @@ void CreateMountlistSMB()
 			i=FindnChar(linebuffer + offset, ' ', 1); // End of mount point
 			Copy(mountpoint, linebuffer + offset, i);
 			mountpoint[i]=0;
-			for(subnet=1; subnet < 255; subnet++)
+			for (subnet=1; subnet < 255; subnet++)
 			{
 				if(SMBshares[subnet] != NULL)
 					if((CompareStrings(servername, SMBshares[subnet]->ipaddress_string, 0) == 0) ||
@@ -403,7 +403,7 @@ int EncodeName(char *src, char *dest)
 	char C_or_A='C';
 	uchar c;
 	dest[0]=32; /* Length of string not counting terminater. */
-	for(i=0; (i < 15) && (src[i] != '\0'); i++) /* Encode Name and truncate */
+	for (i=0; (i < 15) && (src[i] != '\0'); i++) /* Encode Name and truncate */
 	{
 		c=toupper(src[i]);
 		dest[j]=((c >> 4) & 0x0F) + 'A';
@@ -703,7 +703,7 @@ void FindServer(uchar *rxbuffer, uint32_t ipaddress)
 	uchar subnet=(ipaddress >> 24) & 0xFF;
 	if(SMBshares[subnet] == NULL)
 		SMBshares[subnet]=zmalloc(sizeof(struct SMBserver), __LINE__);
-	for( ; namecounter >= 0; namecounter--)
+	for ( ; namecounter >= 0; namecounter--)
 	{
 		s=ptr + (namecounter * 18); // Points to start of current name.
 		e=s + 15; // Points to end of current name.
@@ -741,7 +741,7 @@ int32_t FindString(void *dest, void *src, int len, int casesensitive)
 	if(findlen == 0)
 		findlen=Copy(find, find, 0); // Get string length
 	destlen=Copy(cdest, cdest, 0) - findlen;
-	for(i=0; i <= destlen; i++) // This should catch destlen < findlen
+	for (i=0; i <= destlen; i++) // This should catch destlen < findlen
 	{
 		j=0;
 		if(casesensitive)
@@ -899,7 +899,7 @@ void GetShareInfoSMB(void)
 			timeout=3; // Reset timeout and see if more computers respond
 		}
 	}
-	for(subnet=1; subnet < 255; subnet++)
+	for (subnet=1; subnet < 255; subnet++)
 	{
 		if(SMBshares[subnet] != NULL)
 		{
@@ -950,10 +950,10 @@ void Hexdump(void *src, int len)
 	uchar buffer[80], tmp;
 	char *csrc=src;
 
-	for(j=0; remainder > 0; j=j + 16)
+	for (j=0; remainder > 0; j=j + 16)
 	{
 		Copy(buffer, (char *)' ', sizeof(buffer)); // Fill buffer with spaces
-		for(i=0; i < 16; i=i + 1)
+		for (i=0; i < 16; i=i + 1)
 		{
 			if(remainder <= 0) break; // Test for a short line
 			x=3 * i;
@@ -1233,7 +1233,7 @@ int main(int argc, char *argv[])
 	myname[15]='\0'; // If myname is more than 15 chars we truncate it.
     printf("Local Host Name  = %s\n", myname);
 	ScanInterfaces();
-	for(i=0; i < 10; i++)
+	for (i=0; i < 10; i++)
 	{
 		if(NICinfo[i].ipaddress[0] == 0)
 			break;
@@ -1292,7 +1292,7 @@ int main(int argc, char *argv[])
 		summary=0;
 		header=0;
 		found=0;
-		for(subnet=1; subnet < 255; subnet++)
+		for (subnet=1; subnet < 255; subnet++)
 		{
 			if(SMBshares[subnet] != NULL)
 			{
@@ -1319,7 +1319,7 @@ int main(int argc, char *argv[])
 			}
 		}
 		header=0;
-		for(subnet=1; subnet < 255; subnet++)
+		for (subnet=1; subnet < 255; subnet++)
 		{
 			if(NFSshares[subnet] != NULL)
 				if(NFSshares[subnet]->port != 0)
@@ -1354,7 +1354,7 @@ int main(int argc, char *argv[])
 		{
 			printf("\n%-16s%-22s %s\n", "Server", "Remote Resource", "Local Mount Point");
 			PrintDashes();
-			for(subnet=1; subnet < 255; subnet++)
+			for (subnet=1; subnet < 255; subnet++)
 			{
 				if(SMBshares[subnet] != NULL)
 				{
@@ -1391,18 +1391,18 @@ int main(int argc, char *argv[])
 			}
 			fputc('\n', stdout);
 		}
-		for(subnet=1; subnet < 255; subnet++)
+		for (subnet=1; subnet < 255; subnet++)
 		{
 			if(SMBshares[subnet] != NULL)
 				free(SMBshares[subnet]);
 		}
 		free(SMBshares);
 		SMBshares=NULL;
-		for(subnet=1; subnet < 255; subnet++)
+		for (subnet=1; subnet < 255; subnet++)
 		{
 			if(NFSshares[subnet] != NULL)
 			{
-				for(j=0; j < MAXDIRS; j++)
+				for (j=0; j < MAXDIRS; j++)
 				{
 					if(NFSshares[subnet]->share[j] != NULL)
 						free(NFSshares[subnet]->share[j]);
