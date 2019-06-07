@@ -5,19 +5,19 @@ Copyright (2014) by Adrian; MX Linux <http://mxlinux.org>
 and released under the GPL 3
 
 
-Files: debian/* 
+Files: debian/*
 
 Packaging copyright 2014 by Steven Pusser [stevep@mxlinux.org]
 
-and is released under the GPL 3 license. 
+and is released under the GPL 3 license.
 
-The desktop icon "mx-findshares.xpm" was converted from this artwork on 
+The desktop icon "mx-findshares.xpm" was converted from this artwork on
 openclipart.org: http://openclipart.org/detail/13816/-by--13816
 
 Files: findshare-src/*
 
 findshares was written by and is Copyright (C) Richard A. Rost  April 23,2011
- 
+
 This program attempts to locate remote shares on Windows and Samba
 servers as well as NFS servers in the same subnet as the local IP
 address. Any remote shares found that are mounted in the local file
@@ -25,7 +25,7 @@ system are indicated.
 
 It was written to be a lightweight alternative to Samba's smbtree
 and a friendlier alternative to NFS's showmount.
- 
+
 My Copyright terms are simple. You may copy, modify, and use this
 program as you see fit provided you meet the following terms:
 
