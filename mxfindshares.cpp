@@ -34,6 +34,7 @@ mxfindshares::mxfindshares(QWidget *parent) :
     ui(new Ui::mxfindshares)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window); // for the close, min and max buttons
     setup();
 }
 

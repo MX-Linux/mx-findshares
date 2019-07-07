@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 07 Jul 2019 13:41:07 -0400
+Source: mx-findshares
+Binary: mx-findshares
+Architecture: source amd64
+Version: 19.7
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-findshares - MX wrapper for findshares program
+Changes:
+ mx-findshares (19.7) mx; urgency=medium
+ .
+   * fix window buttons for Buster
+Checksums-Sha1:
+ 9c8a930e53b198360429ccc82dab95ecccad61fa 1200 mx-findshares_19.7.dsc
+ 2f4cd23fbbf788dfc0e30023c60f3bc6813043d8 45524 mx-findshares_19.7.tar.xz
+ 678cb2f2a634234f1a84fdaeb735aaa036ada83f 49882 mx-findshares_19.7_amd64.deb
+Checksums-Sha256:
+ e882ccede3f3b1ba88de3cd0589057a52451fc643f2860566d1a23e4da171173 1200 mx-findshares_19.7.dsc
+ 58bd49ffabd1a89e407d2319cbedf20861377f2f7cea25a03e92def5a2e59564 45524 mx-findshares_19.7.tar.xz
+ cb492fcdf2b478e9cd2f8488da2ad04fd676ad96d3888da80c44153993403c57 49882 mx-findshares_19.7_amd64.deb
+Files:
+ efadba49b672792e6438989b31442f4a 1200 admin optional mx-findshares_19.7.dsc
+ 3bf526284c065fae4f2eab1358f491e9 45524 admin optional mx-findshares_19.7.tar.xz
+ 1a1c2a607c8bf6e2e4f52d8e9162f846 49882 admin optional mx-findshares_19.7_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAl0iL1ITHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumOosB/42tH2A4gTLECmCi7v0/Xj1/594ZdOX
+y7jb515h07tzApOjIsdVNxn0rYUEVa5K0df7OZp8IN/UEsfNGtUIQXXXsBQs2xOq
+yay60bv0alketBtrYTc/Ja2ttcbk9J8k0uE/xjDSBYLcYu9OM+uO/wk0rTvIP0Lm
+ifxJGkNRgG0Wljo/P2nSlr3NZJ9bLOm8JsnAXKSkK1hdPPQwdLRcAJz+DnQS3w46
+4nBDJVJR70UQWabRf0dFJITkOEAdj53eA9Olg5IWZFOAZhmwaXCqQq3XEBzIv/s2
+KQJ4zltEPDWb/ji0uMjqNTAWhDNL9XUZWvhZ09Ui/5SMPygy3h3Q90SJ
+=WH7c
+-----END PGP SIGNATURE-----
