@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
 <context>
     <name>mxfindshares</name>
     <message>
         <location filename="../mxfindshares.ui" line="14"/>
         <location filename="../mxfindshares.cpp" line="177"/>
         <source>MX Find Shares</source>
-        <translation>MX Recursos Compartidos</translation>
+        <translation>MX Recursos compartidos</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="31"/>
@@ -22,17 +20,17 @@
     <message>
         <location filename="../mxfindshares.ui" line="44"/>
         <source>Show only Windows/Samba shares</source>
-        <translation>Mostrar sólo los recursos compartidos de Windows/Samba</translation>
+        <translation>Mostrar solo los recursos compartidos de Windows/Samba</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="51"/>
         <source>Show only NFS shares</source>
-        <translation>Mostrar sólo los recursos compartidos NFS</translation>
+        <translation>Mostrar solo los recursos compartidos de NFS</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="61"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This program lists all the shares available on the network. When you press &amp;quot;Start&amp;quot; the program will display a list with machines and shares ordered by network groups, both local and remote.&lt;/p&gt;&lt;p&gt;Please choose one of the available options and press the &amp;quot;Start&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Este programa lista todos los recursos compartidos disponibles en la red de trabajo. Al presionar &amp;quot;Inicio&amp;quot; el programa desplegará una lista con los equipos y recursos compartidos ordenados por grupos en la red de trabajo, tanto localmente como de forma remota.&lt;/p&gt;&lt;p&gt;Por favor escoja una de las opciones disponibles y presione el botón de &amp;quot;Inicio&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Este programa lista todos los recursos compartidos disponibles en la red. Al presionar &amp;quot;Inicio&amp;quot; el programa desplegará una lista con los equipos y recursos compartidos ordenados por grupos en la red, tanto localmente como de forma remota.&lt;/p&gt;&lt;p&gt;Por favor escoja una de las opciones disponibles y presione el botón de &amp;quot;Inicio&amp;quot; button.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="111"/>
@@ -119,7 +117,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="176"/>
         <source>About MX Find Shares</source>
-        <translation>Acerca de MX Recursos Compartidos</translation>
+        <translation>Acerca de MX Recursos compartidos</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="177"/>
@@ -129,7 +127,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="179"/>
         <source>Simple package for finding network shares for MX Linux</source>
-        <translation>Paquete simple de MX Linux para encontrar recursos compartidos en redes de trabajo</translation>
+        <translation>Paquete simple de MX Linux para encontrar recursos compartidos en la red</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="180"/>
