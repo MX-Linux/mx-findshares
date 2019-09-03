@@ -4,14 +4,15 @@ Priority: optional
 Maintainer: Adrian <adrian@mxlinux.org>
 Build-Depends: debhelper (>=7.0.50~),
                gcc-4.8,
-               qt5-default,
-               qt5-qmake,
+               qtbase5-dev,
                qttools5-dev-tools
 Standards-Version: 3.9.5
 Vcs-Git: git://github.com/AdrianTM/mx-findshares
 
 Package: mx-findshares
 Architecture: any
-Depends: mx-viewer, ${misc:Depends}, ${shlibs:Depends}
+Depends: mx-viewer, 
+	${misc:Depends}, 
+	${shlibs:Depends}
 Description: MX wrapper for findshares program
  MX Find Shares is a wrapper for findshares program, program used for finding shares on the network.
