@@ -132,7 +132,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="180"/>
         <source>This program is composed of two packages:</source>
-        <translation type="unfinished"/>
+        <translation>Bu program iki paketten oluşmaktadır:</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="182"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="id" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="mr" version="2.1">
 <context>
     <name>mxfindshares</name>
     <message>
@@ -40,12 +40,12 @@
     <message>
         <location filename="../mxfindshares.ui" line="148"/>
         <source>Display help </source>
-        <translation>Tampilkan bantuan</translation>
+        <translation>मदत दाखवा</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="151"/>
         <source>Help</source>
-        <translation>Bantuan</translation>
+        <translation>मदत</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="159"/>
@@ -72,7 +72,7 @@
         <location filename="../mxfindshares.ui" line="227"/>
         <location filename="../mxfindshares.cpp" line="184"/>
         <source>Cancel</source>
-        <translation>Batal</translation>
+        <translation>रद्द करा</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="235"/>
@@ -82,12 +82,12 @@
     <message>
         <location filename="../mxfindshares.ui" line="251"/>
         <source>About this application</source>
-        <translation>Tentang aplikasi ini</translation>
+        <translation>या अनुप्रयोगाबद्दल</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="254"/>
         <source>About...</source>
-        <translation>Tentang</translation>
+        <translation>विषयी</translation>
     </message>
     <message>
         <location filename="../mxfindshares.ui" line="262"/>
@@ -102,7 +102,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="108"/>
         <source>Error</source>
-        <translation>Galat</translation>
+        <translation>त्रुटी</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="109"/>
@@ -122,7 +122,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="177"/>
         <source>Version: </source>
-        <translation>Versi:</translation>
+        <translation>आवृत्ती</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="179"/>
@@ -143,7 +143,7 @@
     <message>
         <location filename="../mxfindshares.cpp" line="183"/>
         <source>License</source>
-        <translation>Lisensi</translation>
+        <translation>परवाना</translation>
     </message>
     <message>
         <location filename="../mxfindshares.cpp" line="203"/>

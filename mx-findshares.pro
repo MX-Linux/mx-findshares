@@ -68,6 +68,7 @@ TRANSLATIONS += translations/mx-findshares_am.ts \
                 translations/mx-findshares_ko.ts \
                 translations/mx-findshares_lt.ts \
                 translations/mx-findshares_mk.ts \
+                translations/mx-findshares_mr.ts \
                 translations/mx-findshares_nb.ts \
                 translations/mx-findshares_nl.ts \
                 translations/mx-findshares_pl.ts \
