@@ -4,7 +4,7 @@ We will not support this app anymore because the CLI program "findshares" licens
 
 Please feel free to use whatever part of the code you wish to use, however please be aware that the findshares program in findshares-src is using a non-comercial custom license that is not compatible with GPL.
 
-===================
+
 mx-findshares
 ===================
 
